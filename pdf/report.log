@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  1 JUN 2016 07:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  3 JUN 2016 09:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -206,21 +206,22 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
 )
-No file report.aux.
+(./report.aux)
 \openout1 = `report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 131.
-LaTeX Font Info:    ... okay on input line 131.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 131.
-LaTeX Font Info:    ... okay on input line 131.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 131.
-LaTeX Font Info:    ... okay on input line 131.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 131.
-LaTeX Font Info:    ... okay on input line 131.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 131.
-LaTeX Font Info:    ... okay on input line 131.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 131.
-LaTeX Font Info:    ... okay on input line 131.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+
 -- Lines per column: 58 (exact).
 (/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -283,21 +284,18 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-! Undefined control sequence.
-l.148     \PARstart
-                   {T}{his} section introduces the topic and leads the reade...
-
+! Missing $ inserted.
+<inserted text> 
+                $
+l.39         Used \Delta
+                         \Delta ct method
 ? 
-
-LaTeX Warning: Citation `HOP96' on page 1 undefined on input line 164.
-
-
-LaTeX Warning: Reference `tab:simParameters' on page 1 undefined on input line 
-176.
-
-
-LaTeX Warning: Reference `fig:tf_plot' on page 1 undefined on input line 176.
-
+! Missing $ inserted.
+<inserted text> 
+                $
+l.40 
+     
+? 
 
 ! LaTeX Error: File `plot_tf' not found.
 
@@ -305,7 +303,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.210 ...ludegraphics[width=\columnwidth]{plot_tf}
+l.95 ...cludegraphics[width=\columnwidth]{plot_tf}
                                                   
 ? 
 Missing character: There is no â in font ptmr7t!
@@ -315,35 +313,30 @@ Missing character: There is no “ in font ptmr7t!
 
 
 ]
-(./report.aux)
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+(./report.aux) ) 
 Here is how much of TeX's memory you used:
  2979 strings out of 493089
- 45531 string characters out of 6134842
- 116552 words of memory out of 5000000
- 6428 multiletter control sequences out of 15000+600000
- 42364 words of font info for 79 fonts, out of 8000000 for 9000
+ 45539 string characters out of 6134842
+ 114583 words of memory out of 5000000
+ 6427 multiletter control sequences out of 15000+600000
+ 41257 words of font info for 78 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,9n,23p,1083b,274s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
-exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/tex
-live/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texli
-ve/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/
-2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/201
-5/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2015/texmf-di
-st/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/
-type1/urw/times/utmr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/
-times/utmri8a.pfb>
-Output written on report.pdf (1 page, 82521 bytes).
+ 38i,9n,23p,272b,274s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc
+}</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
+</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></
+usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></us
+r/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/
+local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/loc
+al/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/
+texlive/2015/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/20
+15/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2015/texmf-
+dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts
+/type1/urw/times/utmri8a.pfb>
+Output written on report.pdf (1 page, 98429 bytes).
 PDF statistics:
- 41 PDF objects out of 1000 (max. 8388607)
- 29 compressed objects within 1 object stream
+ 49 PDF objects out of 1000 (max. 8388607)
+ 35 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

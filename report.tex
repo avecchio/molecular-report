@@ -9,13 +9,16 @@
 \usepackage{amsmath}
 %\usepackage{array}
 
+% Package Settings
+\graphicspath{ {images/} }
+
 % Your document starts here!
 \begin{document}
 
 % Define document title and author
     \title{Testing Effects of Transfection on Mammalian Cytokine RNA Expression}
-    \author{Austin Mitchell Vecchio
-%    \thanks{Advisor: Dipl.--Ing.~Firstname Lastname, Lehrstuhl f\"ur Nachrichtentechnik, TUM, WS 2050/2051.}}
+    \author{Austin Mitchell Vecchio}
+%    \thanks{Advisor: Dipl.--Ing.~Michelle Ammerman, Lehrstuhl f\"ur Nachrichtentechnik, TUM, WS 2050/2051.}}
 %    \markboth{Hauptseminar Digitale Kommunikationssysteme}{}
     \maketitle
 
@@ -27,17 +30,20 @@
 % Each section begins with a \section{title} command
 \section{Introduction}
     % \PARstart{}{} creates a tall first letter for this first paragraph
-    \PARstart{T}{his} section introduces the topic and leads the reader on to the main part.
+    %\PARstart{T}{his} section introduces the topic and leads the reader on to the main part.
 
 % Main Part
 \section{Methods}
     \subsection{Purification}
     \subsection{Reverse Transcription}
+      The mRNA must be converted into cDNA.
     \subsection{Qt PCR}
     \subsection{Analysis}
         Used \Delta \Delta ct method
 
 \section{Results}
+  The mRNA was purified and converted to cDNA. THe resulting concentration was relatively high compared to peers. This eludes that the treatment for these cells of polycationic DNA for 24 hours could result in higher transcription rates.
+
     The report can be written in \LaTeX{} or Microsoft Word, but \LaTeX{} is definitely preferred.
     Its appearance should be as close to this document as possible to achieve consistency in the proceedings.
 
@@ -61,7 +67,7 @@
     \begin{table}[!hbt]
         % Center the table
         \begin{center}
-        % Title of the table
+        % Fold Inductions
         \caption{Simulation Parameters}
         \label{tab:simParameters}
         % Table itself: here we have two columns which are centered and have lines to the left, right and in the middle: |c|c|
@@ -98,7 +104,8 @@
     \end{figure}
 
 \section{Discussion}
-    Gallia est omnis divisa in partes tres, quarum unam incolunt Belgae, aliam Aquitani, tertiam qui ipsorum lingua Celtae, nostra Galli appellantur. Gallos ab Aquitanis Garumna flumen, a Belgis Matrona et Sequana dividit. Horum omnium fortissimi sunt Belgae, propterea quod a cultu atque humanitate provinciae longissime absunt, minimeque ad eos mercatores saepe commeant atque ea quae ad effeminandos animos pertinent important, proximique sunt Germanis, qui trans Rhenum incolunt, quibuscum continenter bellum gerunt. Qua de causa Helvetii quoque reliquos Gallos virtute praecedunt, quod fere cotidianis proeliis cum Germanis contendunt, cum aut suis finibus eos prohibent aut ipsi in eorum finibus bellum gerunt. Eorum una, pars, quam Gallos obtinere dictum est, initium capit a flumine Rhodano, continetur Garumna flumine, Oceano, finibus Belgarum, attingit etiam ab Sequanis et Helvetiis flumen Rhenum, vergit ad septentriones. Belgae ab extremis Galliae finibus oriuntur, pertinent ad inferiorem partem fluminis Rheni, spectant in septentrionem et orientem solem.
+
+
 
 \section{Conclusion}
     This section summarizes the paper.
@@ -131,5 +138,3 @@
 
 % Your document ends here!
 \end{document}
-              
-            
