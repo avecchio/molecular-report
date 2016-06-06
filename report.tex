@@ -65,18 +65,39 @@
     % You can reference tables and figure by using the \ref{label} command. Each table and figure needs to have a UNIQUE label.
     Figures and tables should be labeled and numbered, such as in Table~\ref{tab:simParameters} and Fig.~\ref{fig:tf_plot}.
 
-    % This is how you define a table: the [!hbt] means that LaTeX is forced (by the !) to place the table exactly here (by h), or if that doesnt work because of a pagebreak or so, it tries to place the table to the bottom of the page (by b) or the top (by t).
+    \begin{table}[!hbt]
+        % Center the table
+        \begin{center}
+        % Fold Inductions
+        \caption{Simulation Parameters}
+        \label{tab:simParameters}
+        % Table itself: here we have two columns which are centered and have lines to the left, right and in the middle: |c|c|
+        \begin{tabular}{|c|c|}
+            \hline
+            1 & 2\\
+            \hline
+            A & \\
+            \hline
+            1 & 2\\
+            \hline
+            A & \\
+            \hline
+            1 & 2\\
+            \hline
+            A & \\
+            \hline
+            1 & 2\\
+            \hline
+            A & \\
+            \hline
+            1 & 2\\
+            \hline
+            A & \\
+        \end{tabular}
+        \end{center}
+    \end{table}
 
-%Tasha
-%Micah
-%Nick
-%Austin
-%-rt controls
-%NTC
 
-%IL6 INFA B acctin RPL13A
-%
-%H
     \begin{table}[!hbt]
         % Center the table
         \begin{center}
