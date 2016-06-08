@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  8 JUN 2016 11:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  8 JUN 2016 12:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -219,6 +219,9 @@ LaTeX Warning: Label `tab:simParameters' multiply defined.
 
 LaTeX Warning: Label `tab:simParameters' multiply defined.
 
+
+LaTeX Warning: Label `tab:simParameters' multiply defined.
+
 )
 \openout1 = `report.aux'.
 
@@ -305,140 +308,106 @@ l.35     \PARstart
 Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ù in font ptmr7t!
+! Display math should end with $$.
+<to be read again> 
+                   \mu 
+l.79             600 $\mu
+                         $L of Trizol * frac{0.2$\muL$ of choloform}{1$\mu$L...
+
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.79             600 $\mu
+                         $L of Trizol * frac{0.2$\muL$ of choloform}{1$\mu$L...
+
+? 
+! Undefined control sequence.
+<recently read> \muL 
+                     
+l.79 ...      600 $\mu$L of Trizol * frac{0.2$\muL
+                                                  $ of choloform}{1$\mu$L of...
+
+? 
+
+! LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.80           \end{equation}
+                             
+? 
+! You can't use `\eqno' in horizontal mode.
+\endmathdisplay@a ...\df@tag \@empty \else \veqno 
+                                                  \alt@tag \df@tag \fi \ifx ...
+l.80           \end{equation}
+                             
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.80           \end{equation}
+                             
+? 
+! Display math should end with $$.
+<to be read again> 
+                   \endgroup 
+l.80           \end{equation}
+                             
+? 
 ! Undefined control sequence.
 <recently read> \muu 
                      
-l.84 ...   1$\mu$L 10x dsDNase Buffer & 10x 1$\muu
+l.97 ...   1$\mu$L 10x dsDNase Buffer & 10x 1$\muu
                                                   $L 10x dsDNase Buffer \\
 ? 
 ! Undefined control sequence.
 <recently read> \muu 
                      
-l.86             1$\mu$L dsDNase & 1$\muu
+l.99             1$\mu$L dsDNase & 1$\muu
                                          $L dsDNase \\
 ? 
 ! Undefined control sequence.
 <recently read> \muu 
                      
-l.88             1$\mu$L Template RNA & 1$\muu
-                                              $L Template RNA \\
+l.101             1$\mu$L Template RNA & 1$\muu
+                                               $L Template RNA \\
 ? 
 ! Undefined control sequence.
 <recently read> \muu 
                      
-l.90 ...       2$\mu$L Total RNA (Poly24) & 2$\muu
+l.103 ...      2$\mu$L Total RNA (Poly24) & 2$\muu
                                                   $L Total RNA (Poly24) \\
 ? 
-! Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.106             \hline
-                        
-? 
-! You can't use `\hrule' here except with leaders.
-\hline ->\noalign {\ifnum 0=`}\fi \hrule 
-                                         \@height \arrayrulewidth \futurelet...
-l.106             \hline
-                        
-? 
-! Missing number, treated as zero.
-<to be read again> 
-                   \futurelet 
-l.106             \hline
-                        
-? 
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \futurelet 
-l.106             \hline
-                        
-? 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.107             2$\mu$L Maxima Enzyme Mix &
-                                              2$\mu$L DEPC H20
-? 
-! Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.108             \hline
-                        
-? 
-! You can't use `\hrule' here except with leaders.
-\hline ->\noalign {\ifnum 0=`}\fi \hrule 
-                                         \@height \arrayrulewidth \futurelet...
-l.108             \hline
-                        
-? 
-! Missing number, treated as zero.
-<to be read again> 
-                   \futurelet 
-l.108             \hline
-                        
-? 
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \futurelet 
-l.108             \hline
-                        
-? 
-! Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.110             \hline
-                        
-? 
-! You can't use `\hrule' here except with leaders.
-\hline ->\noalign {\ifnum 0=`}\fi \hrule 
-                                         \@height \arrayrulewidth \futurelet...
-l.110             \hline
-                        
-? 
-! Missing number, treated as zero.
-<to be read again> 
-                   \futurelet 
-l.110             \hline
-                        
-? 
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \futurelet 
-l.110             \hline
-                        
-? 
-
-Overfull \hbox (117.06004pt too wide) in paragraph at lines 101--112
- [] 
- []
-
 ! Misplaced alignment tab character &.
-l.117       iTaq universal SYBR Green supermix 20&
+l.130       iTaq universal SYBR Green supermix 20&
                                                   \mu&L Reaction
 ? 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.117 ...iTaq universal SYBR Green supermix 20&\mu
+l.130 ...iTaq universal SYBR Green supermix 20&\mu
                                                   &L Reaction
 ? 
 ! Misplaced alignment tab character &.
-l.117 ...Taq universal SYBR Green supermix 20&\mu&
+l.130 ...Taq universal SYBR Green supermix 20&\mu&
                                                   L Reaction
 ? 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.121 
+l.134 
       
 ? 
 
-Underfull \hbox (badness 10000) in paragraph at lines 117--121
+Underfull \hbox (badness 10000) in paragraph at lines 130--134
 []\OT1/ptm/m/n/10 iTaq uni-ver-sal SYBR Green su-per-mix
  []
 
 
-Overfull \hbox (17.15642pt too wide) in paragraph at lines 117--121
+Overfull \hbox (17.15642pt too wide) in paragraph at lines 130--134
 \OT1/ptm/m/n/10 20$\OML/cmm/m/it/10 ^^VLReaction\OT1/cmr/m/n/10 10\OML/cmm/m/it
 /10 PermuationofGreensupermixwithfour <>
  []
@@ -446,7 +415,7 @@ Overfull \hbox (17.15642pt too wide) in paragraph at lines 117--121
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.148         Used $\Delta$\Delta
+l.162         Used $\Delta$\Delta
                                  $ct method was used in calculating fold ind...
 
 ? 
@@ -455,35 +424,35 @@ l.148         Used $\Delta$\Delta
 
 ]
 ! Misplaced alignment tab character &.
-l.226   Columns 4-6 INF&
+l.240   Columns 4-6 INF&
                         \alpha&
 ? 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.226   Columns 4-6 INF&\alpha
+l.240   Columns 4-6 INF&\alpha
                               &
 ? 
 ! Misplaced alignment tab character &.
-l.226   Columns 4-6 INF&\alpha&
+l.240   Columns 4-6 INF&\alpha&
                                
 ? 
 ! Misplaced alignment tab character &.
-l.227   Columns 7-9 &
+l.241   Columns 7-9 &
                      \beta&-acting
 ? 
 ! Misplaced alignment tab character &.
-l.227   Columns 7-9 &\beta&
+l.241   Columns 7-9 &\beta&
                            -acting
 ? 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.229 
+l.243 
       
 ? 
 
-LaTeX Warning: File `gel.tif' not found on input line 261.
+LaTeX Warning: File `gel.tif' not found on input line 275.
 
 
 ! LaTeX Error: Unknown graphics extension: .tif.
@@ -492,24 +461,22 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.261 \includegraphics{gel.tif}
+l.275 \includegraphics{gel.tif}
                                
 ? 
 Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ì in font ptmr7t!
-[2
-
-] (./report.aux)
+[2] (./report.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 2977 strings out of 493089
- 45567 string characters out of 6134842
- 127627 words of memory out of 5000000
- 6432 multiletter control sequences out of 15000+600000
+ 2978 strings out of 493089
+ 45570 string characters out of 6134842
+ 128628 words of memory out of 5000000
+ 6433 multiletter control sequences out of 15000+600000
  42394 words of font info for 82 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  38i,8n,23p,500b,272s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -523,7 +490,7 @@ e/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/
 dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2015/texmf-dist/font
 s/type1/urw/times/utmr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/ur
 w/times/utmri8a.pfb>
-Output written on report.pdf (2 pages, 102007 bytes).
+Output written on report.pdf (2 pages, 102832 bytes).
 PDF statistics:
  48 PDF objects out of 1000 (max. 8388607)
  34 compressed objects within 1 object stream
