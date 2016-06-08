@@ -64,57 +64,21 @@ No Wash
 
 It is virtually impossible to completely eliminate all genomic DNA from RNA preparations. Therefore, if the assay is not cDNA-specific, it is important to include a minus-reverse transcriptase ("-RT") control in real-time RT-PCR experiments. Typically, the "-RT" control is a mock reverse transcription containing all the RT-PCR reagents, except the reverse transcriptase. The presence of an amplification product in the "-RT" control is indicative of contaminating DNA in the sample.”
 
-% Main Part
 \section{Methods}
-    \subsection{Purification}
+    \subsection{RNA Purification}
       The cells in trizol were thawed before phase separation. During phase separation,
-      the poly treated cells in trizol were incubated for a duration of 5 minutes. An addition of chloroform was then added
-      to the homoginized sample according to the ratio of 0.2mL of chloroform was added for every 1mL of Trizol reagent.
-      The homoginized sample was incubated following a vigorous shake. The sample was then centrifuged for 15 min and the aqueous phase
-      was removed and stored in a second tube. Isopropanol was added to the aqueous phase at a ratio of 0.5$\mu$L of isopropanol per 1$\mu$ of Trizol.
-      Solution was centrifuged for 20 min and remove ethanol leaving only the pellet. Resuspend pellet in RNase free water. Incubate in heat block at 42C for 10-15 min.
+      the poly treated cells in trizol were incubated after which an addition of chloroform was added.
+      The homoginized sample was incubated following a vigorous shake. The sample was then centrifuged before transfering the aqueous phase
+      to a second tube. Isopropanol was added to the aqueous phase. The solution underwent a series of centrifuges in between removing ethanol
+      resulting in an RNA pellet. The pellet was incubated following a resuspension in RNase free water.
 
     \subsection{cDNA Synthesis}
-
-        \begin{table}[!hbt]
-          % Center the table
-          \begin{center}
-          \caption{cDNA Concentrations}
-          \label{tab:simParameters}
-          \begin{tabular}{|c|c|}
-            \hline
-            +RT & -RT \\
-            \hline
-            1$\mu$L 10x dsDNase Buffer & 10x 1$\muu$L 10x dsDNase Buffer \\
-            \hline
-            1$\mu$L dsDNase & 1$\muu$L dsDNase \\
-            \hline
-            1$\mu$L Template RNA & 1$\muu$L Template RNA \\
-            \hline
-            2$\mu$L Total RNA (Poly24) & 2$\muu$L Total RNA (Poly24) \\
-            \hline
-          \end{tabular}
-          \end{center}
-        \end{table}
-
-        \begin{table}[!hbt]
-          % Center the table
-          \begin{center}
-          \caption{cDNA Concentrations}
-          \label{tab:simParameters}
-          \begin{tabular}{|c|c|}
-            \hline
-            +RT & -RT \\
-            \hline
-            4$\mu$L 5x Reaction Mix & 4$\mu$L 5x Reaction Mix \\
-            \hline
-            2$\mu$L Maxima Enzyme Mix & 2$\mu$L DEPC H20 \\
-            \hline
-            4$\mu$L Nuclease Free Water & 4$\mu$L Nuclease Free Water \\
-            \hline
-          \end{tabular}
-          \end{center}
-        \end{table}
+      For the first step of cDNA Synthesis, two solutions (+RT/-RT) were formed from the following compounds:
+      10x dsDNase Buffer, dsDNase, Template RNA, polyplex 24hour RNA and nuclease free water.
+      Both solutions were incubated after being centrifuged. The solutions were then chilled on ice, centrifuged and placed back on ice.
+      For both solutions, 5X Reaction mix and nuclease free water was added. In the +RT solution, Maxima Enzyme mix (reverse transcriptase) was added to the mixture.
+      The -RT solution used DEPC H20 instead of Maxima Enzyme mix so that the -RT solution can simulate the +RT solution without synthesizing RNA into cDNA.
+      When the -RT solution undergoes QtPCR, any contaminating genomic DNA will be amplified.
 
     \subsection{Qt PCR}
 

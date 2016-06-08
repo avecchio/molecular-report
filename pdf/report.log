@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  8 JUN 2016 16:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  8 JUN 2016 17:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -216,12 +216,6 @@ LaTeX Warning: Label `tab:simParameters' multiply defined.
 
 LaTeX Warning: Label `tab:simParameters' multiply defined.
 
-
-LaTeX Warning: Label `tab:simParameters' multiply defined.
-
-
-LaTeX Warning: Label `tab:simParameters' multiply defined.
-
 )
 \openout1 = `report.aux'.
 
@@ -308,57 +302,33 @@ l.35     \PARstart
 Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ù in font ptmr7t!
-! Undefined control sequence.
-<recently read> \muu 
-                     
-l.88 ...   1$\mu$L 10x dsDNase Buffer & 10x 1$\muu
-                                                  $L 10x dsDNase Buffer \\
-? 
-! Undefined control sequence.
-<recently read> \muu 
-                     
-l.90             1$\mu$L dsDNase & 1$\muu
-                                         $L dsDNase \\
-? 
-! Undefined control sequence.
-<recently read> \muu 
-                     
-l.92             1$\mu$L Template RNA & 1$\muu
-                                              $L Template RNA \\
-? 
-! Undefined control sequence.
-<recently read> \muu 
-                     
-l.94 ...       2$\mu$L Total RNA (Poly24) & 2$\muu
-                                                  $L Total RNA (Poly24) \\
-? 
 ! Misplaced alignment tab character &.
-l.121       iTaq universal SYBR Green supermix 20&
-                                                  \mu&L Reaction
+l.85       iTaq universal SYBR Green supermix 20&
+                                                 \mu&L Reaction
 ? 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.121 ...iTaq universal SYBR Green supermix 20&\mu
+l.85 ... iTaq universal SYBR Green supermix 20&\mu
                                                   &L Reaction
 ? 
 ! Misplaced alignment tab character &.
-l.121 ...Taq universal SYBR Green supermix 20&\mu&
+l.85 ...iTaq universal SYBR Green supermix 20&\mu&
                                                   L Reaction
 ? 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.125 
-      
+l.89 
+     
 ? 
 
-Underfull \hbox (badness 10000) in paragraph at lines 121--125
+Underfull \hbox (badness 10000) in paragraph at lines 85--89
 []\OT1/ptm/m/n/10 iTaq uni-ver-sal SYBR Green su-per-mix
  []
 
 
-Overfull \hbox (17.15642pt too wide) in paragraph at lines 121--125
+Overfull \hbox (17.15642pt too wide) in paragraph at lines 85--89
 \OT1/ptm/m/n/10 20$\OML/cmm/m/it/10 ^^VLReaction\OT1/cmr/m/n/10 10\OML/cmm/m/it
 /10 PermuationofGreensupermixwithfour <>
  []
@@ -366,7 +336,7 @@ Overfull \hbox (17.15642pt too wide) in paragraph at lines 121--125
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.156         Used $\Delta$\Delta
+l.120         Used $\Delta$\Delta
                                  $ct method was used in calculating fold ind...
 
 ? 
@@ -375,7 +345,7 @@ l.156         Used $\Delta$\Delta
 
 ]
 
-LaTeX Warning: File `gel.tif' not found on input line 273.
+LaTeX Warning: File `gel.tif' not found on input line 237.
 
 
 ! LaTeX Error: Unknown graphics extension: .tif.
@@ -384,22 +354,24 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.273 \includegraphics{gel.tif}
+l.237 \includegraphics{gel.tif}
                                
 ? 
 Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ì in font ptmr7t!
-[2] (./report.aux)
+[2
+
+] (./report.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 2977 strings out of 493089
- 45567 string characters out of 6134842
- 129628 words of memory out of 5000000
- 6432 multiletter control sequences out of 15000+600000
+ 2976 strings out of 493089
+ 45564 string characters out of 6134842
+ 130628 words of memory out of 5000000
+ 6431 multiletter control sequences out of 15000+600000
  42394 words of font info for 82 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  38i,8n,23p,500b,272s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -413,7 +385,7 @@ e/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/
 ist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2015/texmf-dist/fonts
 /type1/urw/times/utmr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw
 /times/utmri8a.pfb>
-Output written on report.pdf (2 pages, 101905 bytes).
+Output written on report.pdf (2 pages, 101553 bytes).
 PDF statistics:
  48 PDF objects out of 1000 (max. 8388607)
  34 compressed objects within 1 object stream
