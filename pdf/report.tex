@@ -10,16 +10,16 @@
 %\usepackage{array}
 
 % Package Settings
-\graphicspath{ {images/} }
+\graphicspath{ {../images/} }
 
 \begin{document}
 
 % Define document title and author
-    \title{Testing the Effects of Transfection on Mammalian Cytokine RNA Expression}
-    \author{Austin Mitchell Vecchio
-    \thanks{Advisor: Dipl.--Ing.~Michelle Ammerman, Lehrstuhl f\"ur Nachrichtentechnik, TUM, WS 2050/2051.}}
-    \markboth{Hauptseminar Digitale Kommunikationssysteme}{}
-    \maketitle
+\title{Testing the Effects of Transfection on Mammalian Cytokine RNA Expression}
+\author{Austin Mitchell Vecchio
+\thanks{Advisor: Dipl.--Ing.~Michelle Ammerman, Lehrstuhl f\"ur Nachrichtentechnik, TUM, WS 2050/2051.}}
+\markboth{Hauptseminar Digitale Kommunikationssysteme}{}
+\maketitle
 
 % Write abstract here
 \begin{abstract}
@@ -38,8 +38,9 @@
       Generate large quantity of DNA from cDNA templates. Can view amount of DNA in each cycle.
       Can be seen if immunological response was indicated.
 
-      There are multiple controls used throughout this experiment. For controls that compare directly against the immunological
-      transcripts $\beta$-actin and RPL13A will be used. INF$\beta$ will not be used as it will only appear after cycle 40 in the experiment producing undesirable results.
+
+      In this experiment, $\beta$-actin and RPL13A will be used for direct controls against the immunological transcripts.
+      INF$\beta$ will not be used as it will only appear after cycle 40 in the experiment producing undesirable results.
       The No Template Control will consist of DEPC water.
 
     Outline
@@ -116,6 +117,11 @@ It is virtually impossible to completely eliminate all genomic DNA from RNA prep
 
     \subsection{Gel Electrophoresis}
 
+
+      The following was loaded in to the wells:
+      \begin{enumerate}
+      \end{enumerate}
+
     \subsection{Analysis}
         Used $\Delta$\Delta$ct method was used in calculating fold inductions.
 
@@ -146,6 +152,10 @@ It is virtually impossible to completely eliminate all genomic DNA from RNA prep
       \end{tabular}
       \end{center}
     \end{table}
+
+  \subsection{QtPCR}
+
+  \subsection{Gel Electrophoresis}
 
 \section{Discussion}
 
@@ -195,14 +205,6 @@ treatment for these cells of polycationic DNA for 24 hours could result in highe
     \end{center}
   \end{table}
 
-%Tasha (Ts) Poly24
-%Micah (Mi) No Wash
-%Nick (Ni) Just Cells
-%Austin (AV) Poly24
-%-rt controls
-%NTC
-
-
   \begin{table}[!hbt]
     % Center the table
     \begin{center}
@@ -234,7 +236,7 @@ treatment for these cells of polycationic DNA for 24 hours could result in highe
     \end{center}
   \end{table}
 
-\includegraphics{gel.tif}
+\includegraphics{gel}
 
 % Now we need a bibliography:
 \begin{thebibliography}{5}
@@ -258,6 +260,20 @@ treatment for these cells of polycationic DNA for 24 hours could result in highe
     \bibitem{5}
     IEEE Transactions \LaTeX and Microsoft Word Style Files.
     \url{http://www.ieee.org/web/publications/authors/transjnl/index.html}
+
+%    @Article{Gabay2006,
+%    author="Gabay, Cem",
+%    title="Interleukin-6 and chronic inflammation",
+%    journal="Arthritis Research {\&} Therapy",
+%    year="2006",
+%    volume="8",
+%    number="2",
+%    pages="1--6",
+%    abstract="Interleukin (IL)-6 is produced at the site of inflammation and plays a key role in the acute phase response as defined by a variety of clinical and biological features such as the production of acute phase proteins. IL-6 in combination with its soluble receptor sIL-6R$\alpha$, dictates the transition from acute to chonic inflammation by changing the nature of leucocyte infiltrate (from polymorphonuclear neutrophils to monocyte/macrophages). In addition, IL-6 exerts stimulatory effects on T- and B-cells, thus favoring chronic inflammatory responses. Strategies targeting IL-6 and IL-6 signaling led to effective prevention and treatment of models of rheumatoid arthritis and other chronic inflammatory diseases.",
+%    issn="1478-6354",
+%    doi="10.1186/ar1917",
+%    url="http://dx.doi.org/10.1186/ar1917"
+%    }
 
 \end{thebibliography}
 
