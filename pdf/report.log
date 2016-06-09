@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  8 JUN 2016 20:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  8 JUN 2016 20:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -303,51 +303,41 @@ Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ù in font ptmr7t!
 ! Misplaced alignment tab character &.
-l.86       iTaq universal SYBR Green supermix 20&
+l.88       iTaq universal SYBR Green supermix 20&
                                                  \mu&L Reaction
 ? 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.86 ... iTaq universal SYBR Green supermix 20&\mu
+l.88 ... iTaq universal SYBR Green supermix 20&\mu
                                                   &L Reaction
 ? 
 ! Misplaced alignment tab character &.
-l.86 ...iTaq universal SYBR Green supermix 20&\mu&
+l.88 ...iTaq universal SYBR Green supermix 20&\mu&
                                                   L Reaction
 ? 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.90 
+l.92 
      
 ? 
 
-Underfull \hbox (badness 10000) in paragraph at lines 86--90
+Underfull \hbox (badness 10000) in paragraph at lines 88--92
 []\OT1/ptm/m/n/10 iTaq uni-ver-sal SYBR Green su-per-mix
  []
 
 
-Overfull \hbox (17.15642pt too wide) in paragraph at lines 86--90
+Overfull \hbox (17.15642pt too wide) in paragraph at lines 88--92
 \OT1/ptm/m/n/10 20$\OML/cmm/m/it/10 ^^VLReaction\OT1/cmr/m/n/10 10\OML/cmm/m/it
 /10 PermuationofGreensupermixwithfour <>
  []
 
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.123       \end{enumerate}
-                           
-? 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.126         Used $\Delta$\Delta
-                                 $ct method was used in calculating fold ind...
+l.127 ...ed in combination with the $\Delta$\Delta
+                                                  $ct formula to produce fol...
 
 ? 
 [1{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
@@ -357,26 +347,44 @@ l.126         Used $\Delta$\Delta
 <../images/gel.png, id=14, 380.622pt x 284.5029pt>
 File: ../images/gel.png Graphic file (type png)
  <use ../images/gel.png>
-Package pdftex.def Info: ../images/gel.png used on input line 239.
-(pdftex.def)             Requested size: 380.62105pt x 284.5022pt.
+Package pdftex.def Info: ../images/gel.png used on input line 242.
+(pdftex.def)             Requested size: 227.62204pt x 170.14304pt.
 
-Overfull \hbox (138.62105pt too wide) in paragraph at lines 239--240
-[][] 
- []
+<../images/graph.png, id=16, 460.72125pt x 288.07625pt>
+File: ../images/graph.png Graphic file (type png)
 
+<use ../images/graph.png>
+Package pdftex.def Info: ../images/graph.png used on input line 249.
+(pdftex.def)             Requested size: 227.62204pt x 142.32344pt.
+File: ../images/graph.png Graphic file (type png)
+ <use ../images/graph.png>
+Package pdftex.def Info: ../images/graph.png used on input line 256.
+(pdftex.def)             Requested size: 227.62204pt x 142.32344pt.
+File: ../images/graph.png Graphic file (type png)
+ <use ../images/graph.png>
+Package pdftex.def Info: ../images/graph.png used on input line 263.
+(pdftex.def)             Requested size: 227.62204pt x 142.32344pt.
+File: ../images/graph.png Graphic file (type png)
+
+<use ../images/graph.png>
+Package pdftex.def Info: ../images/graph.png used on input line 270.
+(pdftex.def)             Requested size: 227.62204pt x 142.32344pt.
 Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ì in font ptmr7t!
-[2 <../images/gel.png>] (./report.aux)
+ [2 <../images/gel.png> <../images/graph.png>]
+[3
+
+] (./report.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 2979 strings out of 493089
- 45645 string characters out of 6134842
- 128631 words of memory out of 5000000
- 6434 multiletter control sequences out of 15000+600000
+ 2986 strings out of 493089
+ 45766 string characters out of 6134842
+ 130639 words of memory out of 5000000
+ 6440 multiletter control sequences out of 15000+600000
  42394 words of font info for 82 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  38i,8n,23p,746b,272s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -390,10 +398,10 @@ e/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/
 ist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2015/texmf-dist/fonts
 /type1/urw/times/utmr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw
 /times/utmri8a.pfb>
-Output written on report.pdf (2 pages, 424815 bytes).
+Output written on report.pdf (3 pages, 428229 bytes).
 PDF statistics:
- 51 PDF objects out of 1000 (max. 8388607)
- 35 compressed objects within 1 object stream
+ 56 PDF objects out of 1000 (max. 8388607)
+ 37 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
