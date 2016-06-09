@@ -84,42 +84,27 @@ It is virtually impossible to completely eliminate all genomic DNA from RNA prep
       When the -RT solution undergoes QtPCR, any contaminating genomic DNA will be amplified.
 
     \subsection{Qt PCR}
+      Each well will contain 2X iTaq universal SYBR Green supermix,
+      one of the four primers (IL6, INF$\alpha$, $\beta$-actin or RPL13A),
+      and the respective cDNA.
 
-      iTaq universal SYBR Green supermix 20&\mu&L Reaction
-      10
-      Permuation of Green supermix with four<> in a 2:1 ratio.
-      5 microliters and 10 microliters.
 
-      \begin{table}[!hbt]
-        % Center the table
-        \begin{center}
-        \caption{cDNA Concentrations}
-        \label{tab:simParameters}
-        \begin{tabular}{|c|c|c|}
-          \hline
-          INFA & (Ts, AV, Mi) & 1.32 \\
-          \hline
-          INFA & (Ni) & 11.79 \\
-          \hline
-          $\beta$-Actin & (Ts, AV, Mi) & 2.00 \\
-          \hline
-          $\beta$-Actin & (Ni) & 2.9 \\
-          \hline
-        \end{tabular}
-        \end{center}
-      \end{table}
 
-      Each well will get 6$\mu$L of 4ng/$\mu$L of dna as per.
-      The concentrations of cDNA for Ts, Av and Mi were all around 100ng/ $\mu$ L. Therefore one set of calculations can be used for all three
-      experiments. The concentrations of Ni, however, were reported ot be 11.2ng/ $\mu$ L and thus, had to have a different set of calculations.
+      The concentrations of cDNA for both sets of Poly24 and no washed cells were all around 100ng/ $\mu$ L.
+      Therefore only one set of calculations are needed for determining the amount of cDNA used in each well (1.32$\mu$L).
+      The amount of cDNA used is 1.32$\mu$L. The concentrations of just cells, however, were reported ot be 11.2ng/ $\mu$ L and thus,
+      required a different set of calculations. For both sets of Poly24 and no washed cells, 1.32 $\mu$L of diluted
+      cDNA was used for the INF$\alpha$, IL6 and the respective -RT wells. Since the concentration for just cells
+      was far lower than expected, 11.79 $\mu$L of diluted cDNA was used instead.For $\beta$-actin, RPL13A and the
+      respective -RT for both sets of Poly24 and no washed cells, 11.79 $\mu$L of cDNA is used. For just washed cells,
+      2.9 $\mu$L of cDNA is used.
 
-      Adding supermix, following charts from above and water makex mix.
-
-      The QPCR was ran for 40 cycles.
+      The QtPCR was ran for 40 cycles.
 
     \subsection{Gel Electrophoresis}
       In order to further understand the results gained from the QtPCR, an agarose gel was ran.
-      The wells were constructed in the following manner: (1) asdf, (2) asdf, (3) asdf
+      The wells were constructed in the following manner:
+      (1) ladder,(2) E1,(3) E3,(4) G1,(5) E2,(6) B1,(7) C1,(8) A5,(9) C4,(10) A8,(11) D10,(12) E11,(13) E12,(14) A8,(15) ladder
 
     \subsection{Analysis}
       The results from the QtPCR produced Ct values from each well.
@@ -174,6 +159,12 @@ treatment for these cells of polycationic DNA for 24 hours could result in highe
     \item Columns 7-9 $\beta$-acting
     \item Columns 10-12 RPL13A
   \end{itemize}
+
+  \begin{figure}[t]
+    \centering
+    \caption{Agarose Gel}
+    \label{fig:mesh1}
+  \end{figure}
 
   \begin{table}[!hbt]
     % Center the table
@@ -240,35 +231,35 @@ treatment for these cells of polycationic DNA for 24 hours could result in highe
   \begin{figure}[t]
     \centering
     \includegraphics[width=8cm]{gel}
-    \caption{a nice plot}
+    \caption{Agarose Gel}
     \label{fig:mesh1}
   \end{figure}
 
   \begin{figure}[t]
     \centering
     \includegraphics[width=8cm]{graph}
-    \caption{a nice plot}
+    \caption{Fold Inductions for}
     \label{fig:mesh1}
   \end{figure}
 
   \begin{figure}[t]
     \centering
     \includegraphics[width=8cm]{graph}
-    \caption{a nice plot}
+    \caption{Fold Inductions for}
     \label{fig:mesh1}
   \end{figure}
 
   \begin{figure}[t]
     \centering
     \includegraphics[width=8cm]{graph}
-    \caption{a nice plot}
+    \caption{Fold Inductions for}
     \label{fig:mesh1}
   \end{figure}
 
   \begin{figure}[t]
     \centering
     \includegraphics[width=8cm]{graph}
-    \caption{a nice plot}
+    \caption{Fold Inductions for}
     \label{fig:mesh1}
   \end{figure}
 
