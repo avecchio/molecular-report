@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  10 JUN 2016 15:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  10 JUN 2016 16:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -349,11 +349,12 @@ Overfull \hbox (7.36707pt too wide) in paragraph at lines 135--152
  [] 
  []
 
-<../images/gel.png, id=13, 380.622pt x 284.5029pt>
-File: ../images/gel.png Graphic file (type png)
- <use ../images/gel.png>
-Package pdftex.def Info: ../images/gel.png used on input line 160.
-(pdftex.def)             Requested size: 227.62204pt x 170.14304pt.
+<../images/supergel.png, id=13, 963.6pt x 542.025pt>
+File: ../images/supergel.png Graphic file (type png)
+
+<use ../images/supergel.png>
+Package pdftex.def Info: ../images/supergel.png used on input line 160.
+(pdftex.def)             Requested size: 227.62204pt x 128.03754pt.
 
 Overfull \hbox (59.68944pt too wide) in paragraph at lines 197--218
  [] 
@@ -371,38 +372,87 @@ File: ../images/il6-bactin.png Graphic file (type png)
 Package pdftex.def Info: ../images/il6-bactin.png used on input line 254.
 (pdftex.def)             Requested size: 227.62204pt x 150.08206pt.
 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.260     }
+           
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.260     }
+           
+? 
 <../images/il6-rpl13a.png, id=16, 636.4578pt x 474.573pt>
 File: ../images/il6-rpl13a.png Graphic file (type png)
 
 <use ../images/il6-rpl13a.png>
-Package pdftex.def Info: ../images/il6-rpl13a.png used on input line 269.
+Package pdftex.def Info: ../images/il6-rpl13a.png used on input line 266.
 (pdftex.def)             Requested size: 227.62204pt x 169.72372pt.
 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.272     }
+           
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.272     }
+           
+? 
 <../images/infa-bactin.png, id=17, 671.1474pt x 502.5174pt>
 File: ../images/infa-bactin.png Graphic file (type png)
 
 <use ../images/infa-bactin.png>
-Package pdftex.def Info: ../images/infa-bactin.png used on input line 284.
+Package pdftex.def Info: ../images/infa-bactin.png used on input line 278.
 (pdftex.def)             Requested size: 227.62204pt x 170.42426pt.
 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.284     }
+           
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.284     }
+           
+? 
 <../images/infa-rpl13a.png, id=18, 652.839pt x 483.7272pt>
 File: ../images/infa-rpl13a.png Graphic file (type png)
 
 <use ../images/infa-rpl13a.png>
-Package pdftex.def Info: ../images/infa-rpl13a.png used on input line 299.
+Package pdftex.def Info: ../images/infa-rpl13a.png used on input line 290.
 (pdftex.def)             Requested size: 227.62204pt x 168.65752pt.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.296     }
+           
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.296     }
+           
+? 
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no “ in font ptmr7t!
- [2 <../images/gel.png>] [3 <../images/il6-bactin.png> <../images/il6-rpl13a.pn
-g> <../images/infa-bactin.png> <../images/infa-rpl13a.png>] (./report.aux)
+[2 <../images/supergel.png>] [3 <../images/il6-bactin.png> <../images/il6-rpl13
+a.png> <../images/infa-bactin.png> <../images/infa-rpl13a.png>] (./report.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
  3049 strings out of 493089
- 46830 string characters out of 6134842
+ 46855 string characters out of 6134842
  131883 words of memory out of 5000000
  6496 multiletter control sequences out of 15000+600000
  42394 words of font info for 82 fonts, out of 8000000 for 9000
@@ -413,15 +463,16 @@ exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/te
 xlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texl
 ive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texliv
 e/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/
-2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/20
-15/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2015/texmf-d
-ist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2015/texmf-dist/fonts
-/type1/urw/times/utmr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw
-/times/utmri8a.pfb>
-Output written on report.pdf (3 pages, 654365 bytes).
+2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/201
+5/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2015/
+texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2015/texmf-dist
+/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/ty
+pe1/urw/times/utmr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/ti
+mes/utmri8a.pfb>
+Output written on report.pdf (3 pages, 417934 bytes).
 PDF statistics:
- 62 PDF objects out of 1000 (max. 8388607)
- 37 compressed objects within 1 object stream
+ 66 PDF objects out of 1000 (max. 8388607)
+ 40 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
