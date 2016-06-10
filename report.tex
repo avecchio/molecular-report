@@ -39,6 +39,7 @@
   are small protiens that are involved in various types of cell signaling. Classifications of these signalings
   include interferos, chemokines and interleukins.
 
+
 %The role of cell division in gene expression is important to understand in order to guide the development of better nonviral gene delivery materials. Microinjection experiments have repeatedly confirmed that transgenes must reach the nucleus to generate a gene product,1–5 indicating that the nuclear membrane is a major barrier to gene expression. Some studies have shown that nuclear uptake of plasmid DNA (pDNA) is strongly dependent on cell division4,6–11 with seminal work having been done by Mario Capecchi more than 30 years ago.1 Other research has shown that cell division is not required for nuclear uptake of pDNA12–16 with most studies exploiting nuclear localization signals (NLS) for transport through nuclear pore complexes.17 Indeed, Zanta et al. have shown that a single NLS is able to translocate pDNA to the nucleus.18
 
 
@@ -67,15 +68,20 @@
 \section{Methods}
     \subsection{RNA Purification}
       The cells in trizol were thawed before phase separation. During phase separation,
-      the poly treated cells in trizol were incubated after which an addition of chloroform was added.
-      The homoginized sample was incubated following a vigorous shake. The sample was then centrifuged before transfering the aqueous phase
-      to a second tube. Isopropanol was added to the aqueous phase. The solution underwent a series of centrifuges in between removing ethanol
-      resulting in an RNA pellet. The pellet was incubated following a resuspension in RNase free water.
+      the poly treated cells in trizol were incubated at 42$^{\circ}$ after which an 0.2mL of chloroform was added per 1mL of Trizol.
+      The homoginized sample was incubated at 42$^{\circ}$ for 2-3 minutes following a vigorous shake for 15 seconds.
+      The sample was then centrifuged 12,000 g for 15 minutes at 4$^{\circ}$C before transfering the aqueous phase
+      to a second tube. (100%) 0.5mL Isopropanol was added to the aqueous phase per 1mL of Trizol used.
+      Again, the sample was centrifuged 12,000 g for 15 minutes at 4$^{\circ}$C.
+      The pellet was not washed in fear of losing RNA.
+      The solution then, underwent a series of centrifuges in between the removal of ethanol to result in an RNA pellet.
+      The pellet was then air dried to remove remaining ethanol.
+      The pellet was incubated at 42$^{\circ}$ following a resuspension in 20$\mu$L of RNase free water.
 
     \subsection{cDNA Synthesis}
       For the first step of cDNA Synthesis, two solutions (+RT/-RT) were formed from the following compounds:
       10x dsDNase Buffer, dsDNase, Template RNA, polyplex 24hour RNA and nuclease free water.
-      Both solutions were incubated after being centrifuged. The solutions were then chilled on ice, centrifuged and placed back on ice.
+      Both solutions were incubated at 42$^{\circ}$ after being centrifuged. The solutions were then chilled on ice, centrifuged and placed back on ice.
       For both solutions, 5X Reaction mix and nuclease free water was added. In the +RT solution, Maxima Enzyme mix (reverse transcriptase) was added to the mixture.
       The -RT solution used DEPC H20 instead of Maxima Enzyme mix so that the -RT solution can simulate the +RT solution without synthesizing RNA into cDNA.
       When the -RT solution undergoes QtPCR, any contaminating genomic DNA will be amplified.
@@ -85,10 +91,10 @@
       This process was conducted using Maxima First Strand cDNA Synthesis Kit with dsDNase (Thermo Scientific, Cat#: K1671)
 
     \subsection{Qt PCR}
-      Each well will contain 2X iTaq universal SYBR Green Supermix,
-      one of the four primers (IL6, INF$\alpha$, $\beta$-actin or RPL13A),
-      and the respective cDNA.
-      The cDNA needs to be diluted to 100ng/$\mu$L before it is added to the wells.
+      Each well will contain 10$mu$L of 2X iTaq universal SYBR Green Supermix,
+      5$\mu$L of a primer (IL6, INF$\alpha$, $\beta$-actin or RPL13A),
+      and 5$\mu$L of the respective diluted cDNA.
+      The cDNA needs to be diluted to 4ng/$\mu$L from their respective concentrations before it is added to the wells.
       The concentrations of cDNA for both sets of Poly24 and no washed cells were all around 100ng/ $\mu$ L.
       Therefore only one set of calculations were needed for determining the proper dilution of cDNA into water
       for either INF$\alpha$ and IL6 or $\beta$-actin andRPL13A and the respective -RT wells. For just cells,
@@ -98,11 +104,8 @@
       The QtPCR was ran for 40 cycles.
 
     \subsection{Gel Electrophoresis}
-      In order to further understand the results gained from the QtPCR, an agarose gel was ran
-      from the resulting amplified DNA from the Real Time PCR.
-      The wells were constructed in the following manner:
-      (1) Ladder, (2) E1, (3) E3, (4) G1, (5) E2, (6) B1, (7) C1,
-      (8) A5, (9) C4, (10) A8, (11) D10, (12) E11, (13) E12, (14) A8, (15) Ladder
+      In order to further understand the results gained from the QtPCR, an 1.2% agarose gel was poured
+      and gel electrophoresis was ran on the PCR product.
 
     \subsection{Analysis}
       The results from the QtPCR produced Ct values from each well.
@@ -112,32 +115,10 @@
 \section{Results}
 
   \subsection{Qubit}
-    Poly24
+    Following the cDNA synthesis, the concentrations were measured by the Qubit. The concentrations are as follows:
+    SD1 (standard 1): 54.27ng/$\mu$L, SD2 (standard 2): 1057.52ng/$\mu$L, Tk: 8.75ng/$\mu$L,
+    DA: 68.0ng/$\mu$L, AV: 487.0ng/$\mu$L, TK: 28.0ng/$\mu$L.
 
-%    \begin{table}[!hbt]
-%      % Center the table
-%      \begin{center}
-%      % Fold Inductions
-%      \caption{Qubit Results}
-%      \label{tab:simParameters}
-%      % Table itself: here we have two columns which are centered and have lines to the left, right and in the middle: |c|c|
-%      \begin{tabular}{|c|c|}
-%      \hline
-%      SD1 & 54.27 \\
-%      \hline
-%      SD2 & 1057.52 \\
-%      \hline
-%      Tk & 8.75 \\
-%      \hline
-%      DA & 68.0 \\
-%      \hline
-%      AV & 487.0 \\
-%      \hline
-%      Tk & 28.0 \\
-%      \hline
-%      \end{tabular}
-%      \end{center}
-%    \end{table}
 %Il6-B actin, INFa-Beta Actin, IL6-RPL13A, INFA-RPL13A
 %Mean 500.25 421.07 25.83 22.29
 %Standard deviation 614.52 479.64 22.69 9.09
@@ -165,13 +146,14 @@
         \hline
         Poly24[Tk]-Cells & 6.54E-02 & 5.90E-02 & 2.57E-02 & 2.55E-02\\
         \hline
-        Poly6 & 500.25 & 421.07 & 25.83 & 22.29 \\
+        Poly6+iCRT-NoWash6 & 500.25 & 421.07 & 25.83 & 22.29 \\
         \hline
       \end{tabular}
       \end{center}
     \end{table}
 
   \subsection{Gel Electrophoresis}
+    An argarose gel was ran to further analyze the amplified cDNA from the QtPCR reaction.
 
     \begin{figure}[t]
       \centering
@@ -185,10 +167,6 @@
 The mRNA was purified and converted to cDNA. THe resulting concentration was relatively high compared to peers. This eludes that the
 treatment for these cells of polycationic DNA for 24 hours could result in higher transcription rates.
 
-
-
-
-
 \section{Conclusion}
 
 To futher understand the nature polyplex treated cells in response to a specific duration,
@@ -197,30 +175,42 @@ it would be suggested that the polyplex cells are treated in 3 hour increments f
 
 \section{Figures}
 
+%Primer name              	Tm	 Sequence
+%RTPCR-IL6-FOR 		60 CCTTCCAAAGATGGCTGAAA
+%RTPCR-IL6-REV 		60 CACAGCTCTGGCTTGTTCCT
+%RTPCR-IFNAall-FOR 	61 GCACCGAACTCTACCAGCAG
+%RTPCR-IFNAall-REV 	60 ACAACCTCCCAGGCACAA
+%RTPCR-IFNB-FOR 		60 tcactgtgcctggaccatag
+%RTPCR-IFNB-REV 		60 cagcatctgctggttgaaga 
+%RTPCR-B-Actin-FOR	           TTGCCGACAGGATGCAGAA
+%RTPCR-B-Actin-REV	           GCCGATCCACACGGAGTACTT
+%RTPCR RPL13A –FWD		CCTGGAGGAGAAGAGGAAAGAGA
+%RTPCR RPL13A REV		TTGAGGACCTCTGTGTATTTGTCAA
+
   \begin{table}[!hbt]
     % Center the table
     \begin{center}
     % Fold Inductions
-    \caption{Wells for Immunological Responses}
+    \caption{PCR Wells for Immunological Responses}
     \label{tab:simParameters}
     % Table itself: here we have two columns which are centered and have lines to the left, right and in the middle: |c|c|
-    \begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|c|c|}
+    \begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|c|c|c|}
       \hline
       & 1 & 2 & 3 & 4 & 5 & 6\\
       \hline
-      A & 4ng/$\mu$L & 4ng/$\mu$L & 4ng/$\mu$L & 4ng/$\mu$L & 4ng/$\mu$L & 4ng/$\mu$L\\
+      A (Poly24[TK]) & 4ng/$\mu$L & 4ng/$\mu$L & 4ng/$\mu$L & 4ng/$\mu$L & 4ng/$\mu$L & 4ng/$\mu$L\\
       \hline
-      B & 4ng/$\mu$L & 4ng/$\mu$L & 4ng/$\mu$L & 4ng/$\mu$L & 4ng/$\mu$L & 4ng/$\mu$L\\
+      B (Just Cells) & 4ng/$\mu$L & 4ng/$\mu$L & 4ng/$\mu$L & 4ng/$\mu$L & 4ng/$\mu$L & 4ng/$\mu$L\\
       \hline
-      C & 4ng/$\mu$L & 4ng/$\mu$L & 4ng/$\mu$L & 4ng/$\mu$L & 4ng/$\mu$L & 4ng/$\mu$L\\
+      C (No Wash) & 4ng/$\mu$L & 4ng/$\mu$L & 4ng/$\mu$L & 4ng/$\mu$L & 4ng/$\mu$L & 4ng/$\mu$L\\
       \hline
-      D & 4ng/$\mu$L & 4ng/$\mu$L & 4ng/$\mu$L & 4ng/$\mu$L & 4ng/$\mu$L & 4ng/$\mu$L\\
+      D (Poly24[AV]) & 4ng/$\mu$L & 4ng/$\mu$L & 4ng/$\mu$L & 4ng/$\mu$L & 4ng/$\mu$L & 4ng/$\mu$L\\
       \hline
-      E & Ts & Ni & AV & Ts & Ni & AV\\
+      E (-RT) & Ts & Ni & AV & Ts & Ni & AV\\
       \hline
-      E & Ts & Ni & AV & Ts & Ni & AV\\
+      E (NTC) & Ts & Ni & AV & Ts & Ni & AV\\
       \hline
-      G & Mi -RT & Mi NTC & & Mi -RT & Mi NTC & \\
+      G & Mi (-RT) & Mi (NTC) & & Mi (-RT) & Mi (NTC) & \\
       \hline
       H & & & & & &\\
       \hline
@@ -232,26 +222,26 @@ it would be suggested that the polyplex cells are treated in 3 hour increments f
     % Center the table
     \begin{center}
     % Fold Inductions
-    \caption{Wells for Controls}
+    \caption{PCR Wells for Controls}
     \label{tab:simParameters}
     % Table itself: here we have two columns which are centered and have lines to the left, right and in the middle: |c|c|
-    \begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|c|c|}
+    \begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|c|c|c|}
       \hline
       & 7 & 8 & 9 & 10 & 11 & 12 \\
       \hline
-      A & 4ng/$\mu$L & 4ng/$\mu$L & 4ng/$\mu$L & 4ng/$\mu$L & 4ng/$\mu$L & 4ng/$\mu$L\\
+      A (Poly24[TK]) & 4ng/$\mu$L & 4ng/$\mu$L & 4ng/$\mu$L & 4ng/$\mu$L & 4ng/$\mu$L & 4ng/$\mu$L\\
       \hline
-      B & 4ng/$\mu$L & 4ng/$\mu$L & 4ng/$\mu$L & 4ng/$\mu$L & 4ng/$\mu$L & 4ng/$\mu$L\\
+      B (Just Cells) & 4ng/$\mu$L & 4ng/$\mu$L & 4ng/$\mu$L & 4ng/$\mu$L & 4ng/$\mu$L & 4ng/$\mu$L\\
       \hline
-      C & 4ng/$\mu$L & 4ng/$\mu$L & 4ng/$\mu$L & 4ng/$\mu$L & 4ng/$\mu$L & 4ng/$\mu$L\\
+      C (No Wash) & 4ng/$\mu$L & 4ng/$\mu$L & 4ng/$\mu$L & 4ng/$\mu$L & 4ng/$\mu$L & 4ng/$\mu$L\\
       \hline
-      D & 4ng/$\mu$L & 4ng/$\mu$L & 4ng/$\mu$L & 4ng/$\mu$L & 4ng/$\mu$L & 4ng/$\mu$L\\
+      D (Poly24[AV]) & 4ng/$\mu$L & 4ng/$\mu$L & 4ng/$\mu$L & 4ng/$\mu$L & 4ng/$\mu$L & 4ng/$\mu$L\\
       \hline
-      E & Ts & Ni & AV & Ts & Ni & AV\\
+      E (-RT) & Ts & Ni & AV & Ts & Ni & AV\\
       \hline
-      E & Ts & Ni & AV & Ts & Ni & AV\\
+      E (NTC) & Ts & Ni & AV & Ts & Ni & AV\\
       \hline
-      G & Mi -RT & Mi NTC & & Mi -RT & Mi NTC & \\
+      G & Mi (-RT) & Mi (NTC) & & Mi (-RT) & Mi (NTC) & \\
       \hline
       H & & & & & &\\
       \hline
@@ -261,29 +251,60 @@ it would be suggested that the polyplex cells are treated in 3 hour increments f
 
   \begin{figure}[t]
     \centering
-    \includegraphics[width=8cm]{il6}
-    \caption{Fold Inductions for Interleukin-6. }
+    \includegraphics[width=8cm]{il6-bactin}
+    \caption{Logarithmic fold Inductions for Interleukin-6 vs $\beta$-actin.
+      From left to right, the comparisons are as follows:
+      From left to right, the comparisons are as follows:
+      Polyplex treated cells for 24 hours version [AV] vs Cells that were not washed, Polyplex treated cells for 24 hours version [AV]
+      vs Just cells, Cells that were not washed vs Just cells,
+      Polyplex treated cells for 24 hours version [Tk] vs Cells that were not washed,
+      Polyplex treated cells for 24 hours version [Tk] vs Just cells, and Polyplex treated cells for 6 hours with iCRT vs
+      Cells that were not washed after 6 hours.
+    }
     \label{fig:mesh1}
   \end{figure}
 
   \begin{figure}[t]
     \centering
-    \includegraphics[width=8cm]{bactin}
-    \caption{Fold Inductions for $\beta$-actin. }
+    \includegraphics[width=8cm]{il6-rpl13a}
+    \caption{Logarithmic fold Inductions for Interleukin-6 vs RPL13A.
+      From left to right, the comparisons are as follows:
+      From left to right, the comparisons are as follows:
+      Polyplex treated cells for 24 hours version [AV] vs Cells that were not washed, Polyplex treated cells for 24 hours version [AV]
+      vs Just cells, Cells that were not washed vs Just cells,
+      Polyplex treated cells for 24 hours version [Tk] vs Cells that were not washed,
+      Polyplex treated cells for 24 hours version [Tk] vs Just cells, and Polyplex treated cells for 6 hours with iCRT vs
+      Cells that were not washed after 6 hours.
+    }
     \label{fig:mesh1}
   \end{figure}
 
   \begin{figure}[t]
     \centering
-    \includegraphics[width=8cm]{infa}
-    \caption{Fold Inductions for Interferon-$\alpha$. }
+    \includegraphics[width=8cm]{infa-bactin}
+    \caption{Logarithmic fold Inductions for Interferon-$\alpha$ vs $\beta$-actin.
+      From left to right, the comparisons are as follows:
+      From left to right, the comparisons are as follows:
+      Polyplex treated cells for 24 hours version [AV] vs Cells that were not washed, Polyplex treated cells for 24 hours version [AV]
+      vs Just cells, Cells that were not washed vs Just cells,
+      Polyplex treated cells for 24 hours version [Tk] vs Cells that were not washed,
+      Polyplex treated cells for 24 hours version [Tk] vs Just cells, and Polyplex treated cells for 6 hours with iCRT vs
+      Cells that were not washed after 6 hours.
+    }
     \label{fig:mesh1}
   \end{figure}
 
   \begin{figure}[t]
     \centering
-    \includegraphics[width=8cm]{rpl13a. }
-    \caption{Fold Inductions for}
+    \includegraphics[width=8cm]{infa-rpl13a}
+    \caption{Logarithmic fold Inductions for Interferon-$\alpha$ vs RPL13A.
+      From left to right, the comparisons are as follows:
+      Polyplex treated cells for 24 hours version [AV] vs Cells that were not washed, Polyplex treated cells for 24 hours version [AV]
+      vs Just cells, Cells that were not washed vs Just cells,
+      Polyplex treated cells for 24 hours version [Tk] vs Cells that were not washed,
+      Polyplex treated cells for 24 hours version [Tk] vs Just cells, and Polyplex treated cells for 6 hours with iCRT vs
+      Cells that were not washed after 6 hours.
+    }
     \label{fig:mesh1}
   \end{figure}
 
