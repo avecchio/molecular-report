@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  9 JUN 2016 20:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  9 JUN 2016 20:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -206,7 +206,9 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
 )
-(./report.aux
+(/usr/local/texlive/2015/texmf-dist/tex/latex/was/gensymb.sty
+Package: gensymb 2003/07/02 v1.0 (WaS)
+) (./report.aux
 
 LaTeX Warning: Label `tab:simParameters' multiply defined.
 
@@ -231,18 +233,18 @@ LaTeX Warning: Label `fig:mesh1' multiply defined.
 )
 \openout1 = `report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
 
 -- Lines per column: 58 (exact).
 (/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
@@ -306,19 +308,31 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
+LaTeX Info: Redefining \celsius on input line 16.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 16.
+
+
+
+Package gensymb Warning: Not defining \perthousand.
+
+LaTeX Info: Redefining \ohm on input line 16.
+Package gensymb Info: Using \Omega for \ohm on input line 16.
+
+Package gensymb Warning: Not defining \micro.
+
 ! Undefined control sequence.
-l.34     \PARstart
+l.35     \PARstart
                   {T}{his} section introduces the topic and leads the reader...
 
 ? 
 
-Overfull \hbox (53.59738pt too wide) in paragraph at lines 49--51
+Overfull \hbox (53.59738pt too wide) in paragraph at lines 50--52
 []\OT1/ptm/m/n/10 http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2143693/pdf/91447
 66.pdf
  []
 
 
-Overfull \hbox (18.92688pt too wide) in paragraph at lines 49--51
+Overfull \hbox (18.92688pt too wide) in paragraph at lines 50--52
 \OT1/ptm/m/n/10 http://www.molbiolcell.org/content/22/21/4047.full.pdf+html?wit
 h-
  []
@@ -329,7 +343,7 @@ Missing character: There is no ù in font ptmr7t!
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.98 ...sed in combination with the $\Delta$\Delta
+l.95 ...sed in combination with the $\Delta$\Delta
                                                   $ct formula to produce fol...
 
 ? 
@@ -340,33 +354,33 @@ l.98 ...sed in combination with the $\Delta$\Delta
 <../images/gel.png, id=13, 380.622pt x 284.5029pt>
 File: ../images/gel.png Graphic file (type png)
  <use ../images/gel.png>
-Package pdftex.def Info: ../images/gel.png used on input line 219.
+Package pdftex.def Info: ../images/gel.png used on input line 216.
 (pdftex.def)             Requested size: 227.62204pt x 170.14304pt.
 
 <../images/il6.png, id=15, 544.434pt x 356.532pt>
 File: ../images/il6.png Graphic file (type png)
  <use ../images/il6.png>
-Package pdftex.def Info: ../images/il6.png used on input line 226.
+Package pdftex.def Info: ../images/il6.png used on input line 223.
 (pdftex.def)             Requested size: 227.62204pt x 149.06238pt.
 
 <../images/bactin.png, id=16, 484.209pt x 386.4036pt>
 File: ../images/bactin.png Graphic file (type png)
 
 <use ../images/bactin.png>
-Package pdftex.def Info: ../images/bactin.png used on input line 233.
+Package pdftex.def Info: ../images/bactin.png used on input line 230.
 (pdftex.def)             Requested size: 227.62204pt x 181.64508pt.
 
 <../images/infa.png, id=17, 562.2606pt x 304.9794pt>
 File: ../images/infa.png Graphic file (type png)
  <use ../images/infa.png>
-Package pdftex.def Info: ../images/infa.png used on input line 240.
+Package pdftex.def Info: ../images/infa.png used on input line 237.
 (pdftex.def)             Requested size: 227.62204pt x 123.46478pt.
 
 <../images/rpl13a.png, id=18, 483.2454pt x 368.577pt>
 File: ../images/rpl13a.png Graphic file (type png)
 
 <use ../images/rpl13a.png>
-Package pdftex.def Info: ../images/rpl13a.png used on input line 247.
+Package pdftex.def Info: ../images/rpl13a.png used on input line 244.
 (pdftex.def)             Requested size: 227.62204pt x 173.60802pt.
 Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
@@ -380,13 +394,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 3001 strings out of 493089
- 46073 string characters out of 6134842
- 130640 words of memory out of 5000000
- 6452 multiletter control sequences out of 15000+600000
+ 3049 strings out of 493089
+ 46715 string characters out of 6134842
+ 131883 words of memory out of 5000000
+ 6496 multiletter control sequences out of 15000+600000
  42394 words of font info for 82 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,8n,23p,746b,272s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,8n,23p,746b,270s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/te
 xlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texl
@@ -397,7 +411,7 @@ e/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/
 ist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2015/texmf-dist/fonts
 /type1/urw/times/utmr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw
 /times/utmri8a.pfb>
-Output written on report.pdf (3 pages, 588584 bytes).
+Output written on report.pdf (3 pages, 588217 bytes).
 PDF statistics:
  62 PDF objects out of 1000 (max. 8388607)
  37 compressed objects within 1 object stream
