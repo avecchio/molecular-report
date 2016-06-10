@@ -50,8 +50,6 @@ an enzyme labeled reverse transcriptase.
 For the Real Time PCR experiment, since it is impossible to eliminate all genomic DNA from the cDNA synthesis, two solutions will be prepared. The first solution will be a +RT which will include reverse transcriptase and thus, will have cDNA.
 The second solution will be a -RT solution which will lack reverse transcriptase. When QtPCR is performed on the -RT solution, genomic DNA will be amplified and will be seen in the resulting data.
 
-
-
 %Qubit
 
 %http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2143693/pdf/9144766.pdf
@@ -132,20 +130,35 @@ The second solution will be a -RT solution which will lack reverse transcriptase
 %      \end{center}
 %    \end{table}
 
-
-
   \subsection{QtPCR}
 
   \subsection{Gel Electrophoresis}
-    %		Poly24[AV]-NoWash	Poly24[AV]-Cells	NoWash-Cells	Poly24[Tk]-NoWash	Poly24[Tk]-Cells
-    %IL6	Average	3.85E-05	3.10E-02	8.01E+02	8.20E-05	6.54E-02
-    %	St Deviation	8.40E-06	1.60E-02	3.90E+02	2.76E-05	3.41E-02
-    %INFA	Average	7.58E-03	3.54E-02	4.65E+00	4.64E-03	5.90E-02
-    %	St Deviation	6.90E-04	1.13E-02	1.26E+00	4.13E-03	3.09E-02
-    %B Actin	Average	5.09E-05	3.94E-02	7.01E+02	3.77E-05	2.57E-02
-    %	St Deviation	2.30E-05	2.61E-02	2.38E+02	1.39E-05	1.20E-02
-    %RPL13A	Average	1.05E-02	4.27E-02	4.08E+00	6.04E-03	2.55E-02
-    %	St Deviation	5.33E-03	2.28E-02	3.58E-01	3.86E-03	1.78E-02
+
+    \begin{table}[!hbt]
+      % Center the table
+      \begin{center}
+      % Fold Inductions
+      \caption{Wells for Immunological Responses}
+      \label{tab:simParameters}
+      % Table itself: here we have two columns which are centered and have lines to the left, right and in the middle: |c|c|
+      \begin{tabular}{|c|c|c|c|c|}
+        \hline
+        & IL6 & INF$\alpha$ & $\beta$-actin & RPL13A \\
+        \hline
+        Poly24[AV]-NoWash & 3.85E-05 & 7.58E-03 & 5.09E-05 & 1.05E-02 \\
+        \hline
+        Poly24[AV]-Cells & 3.10E-02 & 3.54E-02 & 3.94E-02 & 4.27E-02 \\
+        \hline
+        NoWash-Cells & 8.01E+02 & 4.65E+00 & 7.01E+02 & 4.08E+00 \\
+        \hline
+        Poly24[Tk]-NoWash & 8.20E-05 & 4.64E-03 & 3.77E-05 & 6.04E-03\\
+        \hline
+        Poly24[Tk]-Cells & 6.54E-02 & 5.90E-02 & 2.57E-02 & 2.55E-02\\
+        \hline
+      \end{tabular}
+      \end{center}
+    \end{table}
+
 
 \section{Discussion}
 
