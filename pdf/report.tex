@@ -19,7 +19,6 @@
 \title{Testing the Effects of Transfection on Mammalian Cytokine RNA Expression}
 \author{Austin Mitchell Vecchio
 \thanks{Advisor: Dipl.--Ing.~Michelle Ammerman, Lehrstuhl f\"ur Nachrichtentechnik, TUM, WS 2050/2051.}}
-\markboth{Hauptseminar Digitale Kommunikationssysteme}{}
 \maketitle
 
 % Write abstract here
@@ -32,28 +31,34 @@
 
 % Each section begins with a \section{title} command
 \section{Introduction}
-    \PARstart{T}{his} section introduces the topic and leads the reader on to the main part.
+  \PARstart{G}{ene} therapy is an experimental method for treating disease by introducing a healthy copy of a
+  defective gene into the patient's cells to alter the patients genetic material.
+  The alternative is a non viral gene therapy method which can often have simple and large scale production
+  with low host immunogenicity. However, non viral gene therapy can often yield low transfection efficiencies.
+  New advances in technologies have imporoved transfection efficiency by leveraging cytokines. Cytokines
+  are small protiens that are involved in various types of cell signaling. Classifications of these signalings
+  include interferos, chemokines and interleukins.
 
-In this experiment, $\beta$-actin and RPL13A will be used for direct controls against the immunological transcripts.
-INF$\beta$ will not be used as it will only appear after cycle 40 in the experiment producing undesirable results.
-The No Template Control will consist of DEPC water.
+  In this experiment, $\beta$-actin and RPL13A will be used for direct controls against the immunological transcripts.
+  INF$\beta$ will not be used as it will only appear after cycle 40 in the experiment producing undesirable results.
+  The No Template Control will consist of DEPC water.
 
-Beta actin is a type of actin isoform which is highly involved in cell motility, structure and integrity.
-RPL13A is a gene that codes for the 60S ribosomal L13a protein.
-Interleukin-6 (IL-6) is a multifunctional cytokine that defends the host in response to immune and hematopoietic activities.
-Interferon-$\alpha$ is a part of a large subgroup of interferon protiens that help regulate the activity of the immune system.
+  Beta actin is a type of actin isoform which is highly involved in cell motility, structure and integrity.
+  RPL13A is a gene that codes for the 60S ribosomal L13a protein.
+  Interleukin-6 (IL-6) is a multifunctional cytokine that defends the host in response to immune and hematopoietic activities.
+  Interferon-$\alpha$ is a part of a large subgroup of interferon protiens that help regulate the activity of the immune system.
 
-Reverse Transcriptase (RT)qPCR is a technique used to describe the level of genetic expression is occuring in vitro
-by measuring the amount of mRNA within a sample. In this technique, mRNA is reverse transcribed in to complementary DNA by
-an enzyme labeled reverse transcriptase.
+  Reverse Transcriptase (RT)qPCR is a technique used to describe the level of genetic expression is occuring in vitro
+  by measuring the amount of mRNA within a sample. In this technique, mRNA is reverse transcribed in to complementary DNA by
+  an enzyme labeled reverse transcriptase.
 
-For the Real Time PCR experiment, since it is impossible to eliminate all genomic DNA from the cDNA synthesis, two solutions will be prepared. The first solution will be a +RT which will include reverse transcriptase and thus, will have cDNA.
-The second solution will be a -RT solution which will lack reverse transcriptase. When QtPCR is performed on the -RT solution, genomic DNA will be amplified and will be seen in the resulting data.
+  For the Real Time PCR experiment, since it is impossible to eliminate all genomic DNA from the cDNA synthesis, two solutions will be prepared.
+  The first solution will be a +RT which will include reverse transcriptase and thus, will have cDNA.
+  The second solution will be a -RT solution which will lack reverse transcriptase.
+  When QtPCR is performed on the -RT solution, genomic DNA will be amplified and will be seen in the resulting data.
 
 %Qubit
 
-%http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2143693/pdf/9144766.pdf
-%http://www.molbiolcell.org/content/22/21/4047.full.pdf+html?with-ds=yes
 
 
 \section{Methods}
@@ -129,10 +134,11 @@ The second solution will be a -RT solution which will lack reverse transcriptase
 %      \end{tabular}
 %      \end{center}
 %    \end{table}
+%Il6-B actin, INFa-Beta Actin, IL6-RPL13A, INFA-RPL13A
+%Mean 500.25 421.07 25.83 22.29
+%Standard deviation 614.52 479.64 22.69 9.09
 
   \subsection{QtPCR}
-
-  \subsection{Gel Electrophoresis}
 
     \begin{table}[!hbt]
       % Center the table
@@ -155,10 +161,13 @@ The second solution will be a -RT solution which will lack reverse transcriptase
         \hline
         Poly24[Tk]-Cells & 6.54E-02 & 5.90E-02 & 2.57E-02 & 2.55E-02\\
         \hline
+        Poly6 & 500.25 & 421.07 & 25.83 & 22.29 \\
+        \hline
       \end{tabular}
       \end{center}
     \end{table}
 
+  \subsection{Gel Electrophoresis}
 
 \section{Discussion}
 
@@ -295,6 +304,9 @@ treatment for these cells of polycationic DNA for 24 hours could result in highe
     \bibitem{5}
     IEEE Transactions \LaTeX and Microsoft Word Style Files.
     \url{http://www.ieee.org/web/publications/authors/transjnl/index.html}
+
+%http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2143693/pdf/9144766.pdf
+%http://www.molbiolcell.org/content/22/21/4047.full.pdf+html?with-ds=yes
 
 %    @Article{Gabay2006,
 %    author="Gabay, Cem",

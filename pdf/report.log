@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  9 JUN 2016 21:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  9 JUN 2016 23:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -321,65 +321,68 @@ Package gensymb Info: Using \Omega for \ohm on input line 16.
 Package gensymb Warning: Not defining \micro.
 
 ! Undefined control sequence.
-l.35     \PARstart
-                  {T}{his} section introduces the topic and leads the reader...
+l.34   \PARstart
+                {G}{ene} therapy is an experimental method for treating dise...
 
 ? 
 ! You can't use `macro parameter character #' in horizontal mode.
-l.77 ... Kit with dsDNase (Thermo Scientific, Cat#
+l.82 ... Kit with dsDNase (Thermo Scientific, Cat#
                                                   : K1671)
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.102 ...ed in combination with the $\Delta$\Delta
-                                                  $ct formula to produce fol...
-
 ? 
 [1{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 
 ]
-Overfull \hbox (2.0872pt too wide) in paragraph at lines 144--159
+! Missing $ inserted.
+<inserted text> 
+                $
+l.107 ...ed in combination with the $\Delta$\Delta
+                                                  $ct formula to produce fol...
+
+? 
+
+Overfull \hbox (2.0872pt too wide) in paragraph at lines 150--167
  [] 
  []
 
 <../images/gel.png, id=13, 380.622pt x 284.5029pt>
 File: ../images/gel.png Graphic file (type png)
  <use ../images/gel.png>
-Package pdftex.def Info: ../images/gel.png used on input line 243.
+Package pdftex.def Info: ../images/gel.png used on input line 252.
 (pdftex.def)             Requested size: 227.62204pt x 170.14304pt.
 
 <../images/il6.png, id=15, 544.434pt x 356.532pt>
 File: ../images/il6.png Graphic file (type png)
  <use ../images/il6.png>
-Package pdftex.def Info: ../images/il6.png used on input line 250.
+Package pdftex.def Info: ../images/il6.png used on input line 259.
 (pdftex.def)             Requested size: 227.62204pt x 149.06238pt.
 
 <../images/bactin.png, id=16, 484.209pt x 386.4036pt>
 File: ../images/bactin.png Graphic file (type png)
 
 <use ../images/bactin.png>
-Package pdftex.def Info: ../images/bactin.png used on input line 257.
+Package pdftex.def Info: ../images/bactin.png used on input line 266.
 (pdftex.def)             Requested size: 227.62204pt x 181.64508pt.
 
 <../images/infa.png, id=17, 562.2606pt x 304.9794pt>
 File: ../images/infa.png Graphic file (type png)
  <use ../images/infa.png>
-Package pdftex.def Info: ../images/infa.png used on input line 264.
+Package pdftex.def Info: ../images/infa.png used on input line 273.
 (pdftex.def)             Requested size: 227.62204pt x 123.46478pt.
 
 <../images/rpl13a.png, id=18, 483.2454pt x 368.577pt>
 File: ../images/rpl13a.png Graphic file (type png)
 
 <use ../images/rpl13a.png>
-Package pdftex.def Info: ../images/rpl13a.png used on input line 271.
+Package pdftex.def Info: ../images/rpl13a.png used on input line 280.
 (pdftex.def)             Requested size: 227.62204pt x 173.60802pt.
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no “ in font ptmr7t!
- [2 <../images/gel.png>] [3 <../images/il6.png> <../images/bactin.png> <../imag
-es/infa.png> <../images/rpl13a.png>] (./report.aux)
+ [2 <../images/gel.png> <../images/il6.png>] [3
+
+ <../images/bactin.png> <../images/infa.png> <../images/rpl13a.png>] (./report.
+aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
@@ -402,7 +405,7 @@ e/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/
 ist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2015/texmf-dist/fonts
 /type1/urw/times/utmr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw
 /times/utmri8a.pfb>
-Output written on report.pdf (3 pages, 589214 bytes).
+Output written on report.pdf (3 pages, 589522 bytes).
 PDF statistics:
  62 PDF objects out of 1000 (max. 8388607)
  37 compressed objects within 1 object stream
