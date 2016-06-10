@@ -34,9 +34,7 @@
 \section{Introduction}
     \PARstart{T}{his} section introduces the topic and leads the reader on to the main part.
 
-Reverse Transcriptase (RT)qPCR is a technique used to describe the level of genetic expression is occuring in vitro
-by measuring the amount of mRNA within a sample. In this technique, mRNA is reverse transcribed in to complementary DNA by
-an enzyme labeled reverse transcriptase.
+
 
 In this experiment, $\beta$-actin and RPL13A will be used for direct controls against the immunological transcripts.
 INF$\beta$ will not be used as it will only appear after cycle 40 in the experiment producing undesirable results.
@@ -44,6 +42,14 @@ The No Template Control will consist of DEPC water.
 
 Interleukin-6 (IL-6) is a multifunctional cytokine that defends the host in response
 to immune and hematopoietic activities.
+
+Reverse Transcriptase (RT)qPCR is a technique used to describe the level of genetic expression is occuring in vitro
+by measuring the amount of mRNA within a sample. In this technique, mRNA is reverse transcribed in to complementary DNA by
+an enzyme labeled reverse transcriptase.
+
+For the Real Time PCR experiment, since it is impossible to eliminate all genomic DNA from the cDNA synthesis, two solutions will be prepared. The first solution will be a +RT which will include reverse transcriptase and thus, will have cDNA.
+The second solution will be a -RT solution which will lack reverse transcriptase. When QtPCR is performed on the -RT solution, genomic DNA will be amplified and will be seen in the resulting data.
+
 
 %Beta actin is an actin isoform that is highly involved in cell motility, structure and integrity.
 
@@ -54,8 +60,6 @@ to immune and hematopoietic activities.
 %http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2143693/pdf/9144766.pdf
 %http://www.molbiolcell.org/content/22/21/4047.full.pdf+html?with-ds=yes
 
-For the QtPCR, since it is impossible to eliminate all genomic DNA from the cDNA synthesis, two solutions will be prepared. The first solution will be a +RT which will include reverse transcriptase and thus, will have cDNA.
-The second solution will be a -RT solution which will lack reverse transcriptase. When QtPCR is performed on the -RT solution, genomic DNA will be amplified and will be seen in the resulting data.
 
 \section{Methods}
     \subsection{RNA Purification}
@@ -91,7 +95,8 @@ The second solution will be a -RT solution which will lack reverse transcriptase
       The QtPCR was ran for 40 cycles.
 
     \subsection{Gel Electrophoresis}
-      In order to further understand the results gained from the QtPCR, an agarose gel was ran.
+      In order to further understand the results gained from the QtPCR, an agarose gel was ran
+      from the resulting amplified DNA from the Real Time PCR.
       The wells were constructed in the following manner:
       (1) Ladder, (2) E1, (3) E3, (4) G1, (5) E2, (6) B1, (7) C1,
       (8) A5, (9) C4, (10) A8, (11) D10, (12) E11, (13) E12, (14) A8, (15) Ladder
@@ -104,30 +109,31 @@ The second solution will be a -RT solution which will lack reverse transcriptase
 \section{Results}
 
   \subsection{Qubit}
-    \begin{table}[!hbt]
-      % Center the table
-      \begin{center}
-      % Fold Inductions
-      \caption{Qubit Results}
-      \label{tab:simParameters}
-      % Table itself: here we have two columns which are centered and have lines to the left, right and in the middle: |c|c|
-      \begin{tabular}{|c|c|}
-      \hline
-      SD1 & 54.27 \\
-      \hline
-      SD2 & 1057.52 \\
-      \hline
-      Tk & 8.75 \\
-      \hline
-      DA & 68.0 \\
-      \hline
-      AV & 487.0 \\
-      \hline
-      Tk & 28.0 \\
-      \hline
-      \end{tabular}
-      \end{center}
-    \end{table}
+
+%    \begin{table}[!hbt]
+%      % Center the table
+%      \begin{center}
+%      % Fold Inductions
+%      \caption{Qubit Results}
+%      \label{tab:simParameters}
+%      % Table itself: here we have two columns which are centered and have lines to the left, right and in the middle: |c|c|
+%      \begin{tabular}{|c|c|}
+%      \hline
+%      SD1 & 54.27 \\
+%      \hline
+%      SD2 & 1057.52 \\
+%      \hline
+%      Tk & 8.75 \\
+%      \hline
+%      DA & 68.0 \\
+%      \hline
+%      AV & 487.0 \\
+%      \hline
+%      Tk & 28.0 \\
+%      \hline
+%      \end{tabular}
+%      \end{center}
+%    \end{table}
 
   \subsection{QtPCR}
 
@@ -221,21 +227,21 @@ treatment for these cells of polycationic DNA for 24 hours could result in highe
   \begin{figure}[t]
     \centering
     \includegraphics[width=8cm]{il6}
-    \caption{Fold Inductions for}
+    \caption{Fold Inductions for Interleukin-6}
     \label{fig:mesh1}
   \end{figure}
 
   \begin{figure}[t]
     \centering
     \includegraphics[width=8cm]{bactin}
-    \caption{Fold Inductions for}
+    \caption{Fold Inductions for $\beta$-actin}
     \label{fig:mesh1}
   \end{figure}
 
   \begin{figure}[t]
     \centering
     \includegraphics[width=8cm]{infa}
-    \caption{Fold Inductions for}
+    \caption{Fold Inductions for Interferon-$\alpha$}
     \label{fig:mesh1}
   \end{figure}
 
