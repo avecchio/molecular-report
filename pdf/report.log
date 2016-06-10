@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  9 JUN 2016 20:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  9 JUN 2016 21:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -325,25 +325,14 @@ l.35     \PARstart
                   {T}{his} section introduces the topic and leads the reader...
 
 ? 
-
-Overfull \hbox (53.59738pt too wide) in paragraph at lines 50--52
-[]\OT1/ptm/m/n/10 http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2143693/pdf/91447
-66.pdf
- []
-
-
-Overfull \hbox (18.92688pt too wide) in paragraph at lines 50--52
-\OT1/ptm/m/n/10 http://www.molbiolcell.org/content/22/21/4047.full.pdf+html?wit
-h-
- []
-
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ù in font ptmr7t!
+! You can't use `macro parameter character #' in horizontal mode.
+l.78 ... Kit with dsDNase (Thermo Scientific, Cat#
+                                                  : K1671)
+? 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.95 ...sed in combination with the $\Delta$\Delta
+l.102 ...ed in combination with the $\Delta$\Delta
                                                   $ct formula to produce fol...
 
 ? 
@@ -396,7 +385,7 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  3049 strings out of 493089
  46715 string characters out of 6134842
- 131883 words of memory out of 5000000
+ 129883 words of memory out of 5000000
  6496 multiletter control sequences out of 15000+600000
  42394 words of font info for 82 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -411,7 +400,7 @@ e/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/
 ist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2015/texmf-dist/fonts
 /type1/urw/times/utmr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw
 /times/utmri8a.pfb>
-Output written on report.pdf (3 pages, 588217 bytes).
+Output written on report.pdf (3 pages, 587996 bytes).
 PDF statistics:
  62 PDF objects out of 1000 (max. 8388607)
  37 compressed objects within 1 object stream
