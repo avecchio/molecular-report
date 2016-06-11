@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  11 JUN 2016 13:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  11 JUN 2016 13:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -321,7 +321,7 @@ Package gensymb Info: Using \Omega for \ohm on input line 16.
 Package gensymb Warning: Not defining \micro.
 
 ! Undefined control sequence.
-l.39   \PARstart
+l.38   \PARstart
                 {G}{ene} therapy is an experimental method for treating dise...
 
 ? 
@@ -330,17 +330,17 @@ l.39   \PARstart
 
 ]
 ! You can't use `macro parameter character #' in horizontal mode.
-l.99 ... Kit with dsDNase (Thermo Scientific, Cat#
+l.98 ... Kit with dsDNase (Thermo Scientific, Cat#
                                                   : K1671)
 ? 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.124 ...h) and then applied to the $\Delta$\Delta
+l.123 ...h) and then applied to the $\Delta$\Delta
                                                   $ct method
 ? 
 
-Overfull \hbox (24.42238pt too wide) in paragraph at lines 156--173
+Overfull \hbox (24.42238pt too wide) in paragraph at lines 155--172
  [] 
  []
 
@@ -349,26 +349,26 @@ Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no “ in font ptmr7t!
 
-Overfull \hbox (3.28696pt too wide) in paragraph at lines 266--286
+Overfull \hbox (3.28696pt too wide) in paragraph at lines 265--285
  [] 
  []
 
 ! Misplaced alignment tab character &.
-l.295 ...tallo, J. F., Baker, J. R., Orr, B. G., &
+l.294 ...tallo, J. F., Baker, J. R., Orr, B. G., &
                                                    Holl, M. M. (2013).
 ? 
 
-Underfull \hbox (badness 10000) in paragraph at lines 300--302
+Underfull \hbox (badness 10000) in paragraph at lines 299--301
 []\OT1/ptm/m/n/8 Maxima First Strand cDNA Syn-the-sis Kit for
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 300--302
+Underfull \hbox (badness 10000) in paragraph at lines 299--301
 \OT1/ptm/m/n/8 RT-qPCR, with ds-D-Nase. (n.d.). Re-trieved from
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 304--305
+Underfull \hbox (badness 10000) in paragraph at lines 303--304
 []\OT1/ptm/m/n/8 Real-Time PCR Tech-nol-ogy Ba-sics. (n.d.). Re-trieved from
  []
 
@@ -376,35 +376,35 @@ Underfull \hbox (badness 10000) in paragraph at lines 304--305
 File: ../images/supergel.png Graphic file (type png)
 
 <use ../images/supergel.png>
-Package pdftex.def Info: ../images/supergel.png used on input line 310.
+Package pdftex.def Info: ../images/supergel.png used on input line 309.
 (pdftex.def)             Requested size: 227.62204pt x 226.38985pt.
 
 <../images/il6-bactin.png, id=21, 657.657pt x 433.62pt>
 File: ../images/il6-bactin.png Graphic file (type png)
 
 <use ../images/il6-bactin.png>
-Package pdftex.def Info: ../images/il6-bactin.png used on input line 317.
+Package pdftex.def Info: ../images/il6-bactin.png used on input line 316.
 (pdftex.def)             Requested size: 227.62204pt x 150.08206pt.
 
 <../images/il6-rpl13a.png, id=22, 636.4578pt x 474.573pt>
 File: ../images/il6-rpl13a.png Graphic file (type png)
 
 <use ../images/il6-rpl13a.png>
-Package pdftex.def Info: ../images/il6-rpl13a.png used on input line 326.
+Package pdftex.def Info: ../images/il6-rpl13a.png used on input line 325.
 (pdftex.def)             Requested size: 227.62204pt x 169.72372pt.
 
 <../images/infa-bactin.png, id=23, 671.1474pt x 502.5174pt>
 File: ../images/infa-bactin.png Graphic file (type png)
 
 <use ../images/infa-bactin.png>
-Package pdftex.def Info: ../images/infa-bactin.png used on input line 335.
+Package pdftex.def Info: ../images/infa-bactin.png used on input line 334.
 (pdftex.def)             Requested size: 227.62204pt x 170.42426pt.
 
 <../images/infa-rpl13a.png, id=24, 652.839pt x 483.7272pt>
 File: ../images/infa-rpl13a.png Graphic file (type png)
 
 <use ../images/infa-rpl13a.png>
-Package pdftex.def Info: ../images/infa-rpl13a.png used on input line 344.
+Package pdftex.def Info: ../images/infa-rpl13a.png used on input line 343.
 (pdftex.def)             Requested size: 227.62204pt x 168.65752pt.
  [3] [4 <../images/supergel.png> <../images/il6-bactin.png> <../images/il6-rpl1
 3a.png> <../images/infa-bactin.png> <../images/infa-rpl13a.png>] (./report.aux)
@@ -414,10 +414,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 3044 strings out of 493089
- 46828 string characters out of 6134842
+ 3043 strings out of 493089
+ 46820 string characters out of 6134842
  122877 words of memory out of 5000000
- 6493 multiletter control sequences out of 15000+600000
+ 6492 multiletter control sequences out of 15000+600000
  39673 words of font info for 79 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  38i,8n,23p,317b,260s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -432,7 +432,7 @@ texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2015/texmf-dist
 /fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/ty
 pe1/urw/times/utmr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/ti
 mes/utmri8a.pfb>
-Output written on report.pdf (4 pages, 417176 bytes).
+Output written on report.pdf (4 pages, 416873 bytes).
 PDF statistics:
  69 PDF objects out of 1000 (max. 8388607)
  42 compressed objects within 1 object stream
