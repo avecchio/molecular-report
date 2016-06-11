@@ -47,7 +47,7 @@
   in the body by generating fluid which serves several functions in reproduction. The analysis will focus on quantifying foreign mRNA that will be
   produced from the prostate cells. This process will be carried out by nanoparticles that are formed by the self-assembly of DNA/RNA and cationic polymers
   called polyplexes. Polyplexes are specifically designed to deliver foreign genetic material to cells by a process called transfection.
-  
+
   There are two devices used in this experiment. The first device, the Qubit, is an electronic device that quantifies a substance through fluorescence.
   The second device is qPCR.
   Reverse Transcriptase (RT)qPCR is a technique used to describe the level of genetic expression is occuring in vitro
@@ -62,7 +62,8 @@
   The No Template Control will consist of DEPC water.
   The immunological transcripts that will be used in this experiment are Interleukin-6 (IL6) and Inferon-$\alpha$ (INF$\alpha$)
   Beta actin is a type of actin isoform which is highly involved in cell motility, structure and integrity.
-  RPL13A is a gene that codes for the 60S ribosomal L13a protein.
+  RPL13A is a gene that codes for the 60S ribosomal L13a protein. iCRT will also be present in one polyplex treatment (6hr)
+  to test the effects of polyplex when Wnt pathways (cell surface receptors) are inhibited.
   Interleukin-6 (IL-6) is a multifunctional cytokine that defends the host in response to immune and hematopoietic activities.
   Interferon-$\alpha$ is a part of a large subgroup of interferon protiens that help regulate the activity of the immune system.
 
@@ -130,12 +131,12 @@
       % Center the table
       \begin{center}
       % Fold Inductions
-      \caption{Wells for Immunological Responses}
+      \caption{QtPCR Fold Inductions}
       \label{tab:simParameters}
       % Table itself: here we have two columns which are centered and have lines to the left, right and in the middle: |c|c|
       \begin{tabular}{|c|c|c|c|c|}
         \hline
-        & IL6 & INF$\alpha$ & $\beta$-actin & RPL13A \\
+        & IL6-$\beta$-act. & IL6-RPL. & INF$\alpha$-$\beta$-act. & INF$\alpha$-RPL. \\
         \hline
         Poly24[AV]-NoWash & 3.85E-05 & 7.58E-03 & 5.09E-05 & 1.05E-02 \\
         \hline
@@ -152,6 +153,25 @@
       \end{tabular}
       \end{center}
     \end{table}
+
+
+    Both the Poly24[AV] and Poly24[Tk] variants compared to unwashed cells
+    exhibits fold induction values in the range of $10^{-5}$.
+    Processing this value by using a $log_2$ scale will explain that the polyplex treatment at 24 hours
+    against unwashed cells inhibits genetic transcription levels at a factor of 16.
+
+    When comparing Poly24[AV] and Poly24[Tk] variants against washed cells,
+    the resulting fold induction values were at a rate of $10^{-2}$. Processing this value
+    by using a $log_2$ scale will explain that the polyplex treatment
+    in this case against washed cells inhibits transcription levels at a factor of 6.6
+
+    The addition of iCRT to Polyplex at a treatment of only 6 hours against unwashed
+    cells at six hours exhibits a fold induction values at a rate of $10^2$. Processing
+    this value using a $log_2$ scale will explain that the polyplex treatment under these
+    conditions increased transcription levels at a factor of 6.6
+
+    As previously explained, when viewing the transcription levels of just cells
+    against unwashed cells, a large difference in transcription levels can be seen.
 
   \subsection{Gel Electrophoresis}
 
@@ -180,6 +200,26 @@
 
 The mRNA was purified and converted to cDNA. THe resulting concentration was relatively high compared to peers. This eludes that the
 treatment for these cells of polycationic DNA for 24 hours could result in higher transcription rates.
+
+
+Both the Poly24[AV] and Poly24[Tk] variants express higher transcription rates
+than either just cells or unwashed cells. It can be seen that it depends on both
+the immunological transcript and if the cell has been washed to what degree.
+
+
+exhibit small numerical values for fold inductions which displays a large factor of
+
+In the resulting fold induction calculations, it can be seen in Table 1
+for both versions of Poly24[AV/Tk] that the treatment of polyplex in cells
+often yields higher transcription rates when comparing to just cells or unwashed cells.
+
+that in
+the presence of an immune response the
+comparison
+to the
+
+It can also be seen in Table I that the lack of washing cells
+can diminish the transcription rates.
 
 \section{Conclusion}
 
