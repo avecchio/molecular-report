@@ -62,9 +62,6 @@
   Interleukin-6 (IL-6) is a multifunctional cytokine that defends the host in response to immune and hematopoietic activities.
   Interferon-$\alpha$ is a part of a large subgroup of interferon protiens that help regulate the activity of the immune system.
 
-
-
-
 \section{Methods}
     \subsection{RNA Purification}
       The cells in trizol were thawed before phase separation. During phase separation,
@@ -101,6 +98,7 @@
       a different set of calculations were needed since the original cDNA concentrations were around 11 ng/ $\mu$ L.
       All wells contained the Green Supermix. The columns were sorted in the following manner:
       1-3 contained IL6, 4-6 contained INF$\alpha$, 7-9 contained $\beta$-acting and 10-12 contained RPL13A.
+      Refer to Figure
       The QtPCR was ran for 40 cycles.
 
     \subsection{Gel Electrophoresis}
@@ -110,7 +108,11 @@
     \subsection{Analysis}
       The results from the QtPCR produced Ct values from each well.
       A Ct value is a numeric inverse correlation to the quantity of nucleic acid detected by the aparatus.
-      The Ct values can be used in combination with the $\Delta$\Delta$ct formula to produce fold inductions.
+      Comparisons are made between Polyplex treated cells for 24 hours version [AV], Polyplex treated cells for 24 hours version [Ts],
+      Polyplex treated cells for 6 hours with iCRT, Cells that were not washed after 6 hours, cells that were not washed and just cells.
+      Each comparison was conducted by taking the difference between the Ct values of the two primers (immunological transcript minus control)
+      on two different treatments. A second difference was taken between these two treatments (i.e. Poly24-NoWash) and then applied to the $\Delta$\Delta$ct method
+      to determine the fold induction. This was repeated three times, and thus an average was determined.
 
 \section{Results}
 
@@ -148,6 +150,9 @@
       \end{center}
     \end{table}
 
+
+
+
   \subsection{Gel Electrophoresis}
 
     \begin{figure}[t]
@@ -170,6 +175,7 @@
     as great illumination.
     Lane 6 (Well B1) is cells that were not washed for Interleukin 6.
     Lanes 12 and 13 (Wells: E11,E12) consist of -RT solutions for RPL13A displaying amplified genomic DNA.
+
 \section{Discussion}
 
 The mRNA was purified and converted to cDNA. THe resulting concentration was relatively high compared to peers. This eludes that the
@@ -183,38 +189,6 @@ it would be suggested that the polyplex cells are treated in 3 hour increments f
 
 \section{Figures}
 
-
-  \begin{table}[!hbt]
-    % Center the table
-    \begin{center}
-    % Fold Inductions
-    \caption{PCR Wells for Immunological Responses}
-    \label{tab:simParameters}
-    % Table itself: here we have two columns which are centered and have lines to the left, right and in the middle: |c|c|
-    \begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|c|c|c|}
-      \hline
-      & 1 & 2 & 3 & 4 & 5 & 6\\
-      \hline
-      A & 4ng/$\mu$L & 4ng/$\mu$L & 4ng/$\mu$L & 4ng/$\mu$L & 4ng/$\mu$L & 4ng/$\mu$L\\
-      \hline
-      B & 4ng/$\mu$L & 4ng/$\mu$L & 4ng/$\mu$L & 4ng/$\mu$L & 4ng/$\mu$L & 4ng/$\mu$L\\
-      \hline
-      C & 4ng/$\mu$L & 4ng/$\mu$L & 4ng/$\mu$L & 4ng/$\mu$L & 4ng/$\mu$L & 4ng/$\mu$L\\
-      \hline
-      D & 4ng/$\mu$L & 4ng/$\mu$L & 4ng/$\mu$L & 4ng/$\mu$L & 4ng/$\mu$L & 4ng/$\mu$L\\
-      \hline
-      E & Ts & Ni & AV & Ts & Ni & AV\\
-      \hline
-      E & Ts & Ni & AV & Ts & Ni & AV\\
-      \hline
-      G & Mi(-RT) & Mi(NTC) & & Mi(-RT) & Mi(NTC) & \\
-      \hline
-      H & & & & & &\\
-      \hline
-    \end{tabular}
-    \end{center}
-  \end{table}
-
   \begin{table}[!hbt]
     % Center the table
     \begin{center}
@@ -224,34 +198,33 @@ it would be suggested that the polyplex cells are treated in 3 hour increments f
     % Table itself: here we have two columns which are centered and have lines to the left, right and in the middle: |c|c|
     \begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|c|c|c|}
       \hline
-      & 7 & 8 & 9 & 10 & 11 & 12 \\
+      & Primer & 1/4/7/10 & 2/5/8/11 & 3/6/9/12 \\
       \hline
-      A & 4ng/$\mu$L & 4ng/$\mu$L & 4ng/$\mu$L & 4ng/$\mu$L & 4ng/$\mu$L & 4ng/$\mu$L\\
+      A & Poly24[Tk] & 4ng/$\mu$L & 4ng/$\mu$L & 4ng/$\mu$L\\
       \hline
-      B & 4ng/$\mu$L & 4ng/$\mu$L & 4ng/$\mu$L & 4ng/$\mu$L & 4ng/$\mu$L & 4ng/$\mu$L\\
+      B & Just Cells & 4ng/$\mu$L & 4ng/$\mu$L & 4ng/$\mu$L\\
       \hline
-      C & 4ng/$\mu$L & 4ng/$\mu$L & 4ng/$\mu$L & 4ng/$\mu$L & 4ng/$\mu$L & 4ng/$\mu$L\\
+      C & No Wash & 4ng/$\mu$L & 4ng/$\mu$L & 4ng/$\mu$L\\
       \hline
-      D & 4ng/$\mu$L & 4ng/$\mu$L & 4ng/$\mu$L & 4ng/$\mu$L & 4ng/$\mu$L & 4ng/$\mu$L\\
+      D & Poly24[AV] & 4ng/$\mu$L & 4ng/$\mu$L & 4ng/$\mu$L\\
       \hline
-      E & Ts & Ni & AV & Ts & Ni & AV\\
+      E & -RT & Poly24[Tk] & Cells & Poly24[AV] \\
       \hline
-      E & Ts & Ni & AV & Ts & Ni & AV\\
+      E & NTC & Poly24[Tk] & Cells & Poly24[AV] \\
       \hline
-      G & Mi(-RT) & Mi(NTC) & & Mi(-RT) & Mi(NTC) & \\
+      G & & NoWash(-RT) & NoWash(NTC) &\\
       \hline
-      H & & & & & &\\
+      H & & & &\\
       \hline
     \end{tabular}
     \end{center}
   \end{table}
 
-
   \begin{table}[!hbt]
     % Center the table
     \begin{center}
     % Fold Inductions
-    \caption{PCR Wells for Controls}
+    \caption{List of Primers}
     \label{tab:simParameters}
     % Table itself: here we have two columns which are centered and have lines to the left, right and in the middle: |c|c|
     \begin{tabular}{|c|c|c|}
@@ -277,16 +250,11 @@ it would be suggested that the polyplex cells are treated in 3 hour increments f
     \end{center}
   \end{table}
 
-
-
   \begin{figure}[t]
     \centering
     \includegraphics[width=8cm]{il6-bactin}
     \caption{Logarithmic fold Inductions for Interleukin-6 vs $\beta$-actin.
-      From left to right, the comparisons are as follows:
-      Comparisons are made between Polyplex treated cells for 24 hours version [AV], Polyplex treated cells for 24 hours version [Ts],
-      Polyplex treated cells for 6 hours with iCRT, Cells that were not washed after 6 hours, cells that were not washed and just cells.
-      The resulting values were calculated by the average of three simultaneous QtPCR runs and fold inductions were calculated by the $\Delta$\Delta$ct method.
+    Refer to the analysis subsection of the methods section for insight on how this graph was constructed.
     }
     \label{fig:mesh1}
   \end{figure}
@@ -295,10 +263,7 @@ it would be suggested that the polyplex cells are treated in 3 hour increments f
     \centering
     \includegraphics[width=8cm]{il6-rpl13a}
     \caption{Logarithmic fold Inductions for Interleukin-6 vs RPL13A.
-      From left to right, the comparisons are as follows:
-      Comparisons are made between Polyplex treated cells for 24 hours version [AV], Polyplex treated cells for 24 hours version [Ts],
-      Polyplex treated cells for 6 hours with iCRT, Cells that were not washed after 6 hours, cells that were not washed and just cells.
-      The resulting values were calculated by the average of three simultaneous QtPCR runs and fold inductions were calculated by the $\Delta$\Delta$ct method.
+    Refer to the analysis subsection of the methods section for insight on how this graph was constructed.
     }
     \label{fig:mesh1}
   \end{figure}
@@ -307,10 +272,7 @@ it would be suggested that the polyplex cells are treated in 3 hour increments f
     \centering
     \includegraphics[width=8cm]{infa-bactin}
     \caption{Logarithmic fold Inductions for Interferon-$\alpha$ vs $\beta$-actin.
-      From left to right, the comparisons are as follows:
-      Comparisons are made between Polyplex treated cells for 24 hours version [AV], Polyplex treated cells for 24 hours version [Ts],
-      Polyplex treated cells for 6 hours with iCRT, Cells that were not washed after 6 hours, cells that were not washed and just cells.
-      The resulting values were calculated by the average of three simultaneous QtPCR runs and fold inductions were calculated by the $\Delta$\Delta$ct method.
+    Refer to the analysis subsection of the methods section for insight on how this graph was constructed.
     }
     \label{fig:mesh1}
   \end{figure}
@@ -320,9 +282,7 @@ it would be suggested that the polyplex cells are treated in 3 hour increments f
     \includegraphics[width=8cm]{infa-rpl13a}
     \caption{
     Logarithmic fold Inductions for Interferon-$\alpha$ an immune cytokine vs RPL13A a standard protien.
-    Comparisons are made between Polyplex treated cells for 24 hours version [AV], Polyplex treated cells for 24 hours version [Ts],
-    Polyplex treated cells for 6 hours with iCRT, Cells that were not washed after 6 hours, cells that were not washed and just cells.
-    The resulting values were calculated by the average of three simultaneous QtPCR runs and fold inductions were calculated by the $\Delta$\Delta$ct method.
+    Refer to the analysis subsection of the methods section for insight on how this graph was constructed.
     }
     \label{fig:mesh1}
   \end{figure}
