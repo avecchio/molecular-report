@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  10 JUN 2016 21:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  10 JUN 2016 22:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -210,13 +210,13 @@ LaTeX Info: Redefining \] on input line 2666.
 Package: gensymb 2003/07/02 v1.0 (WaS)
 ) (./report.aux
 
-LaTeX Warning: Label `tab:simParameters' multiply defined.
-
-
-LaTeX Warning: Label `tab:simParameters' multiply defined.
-
-
 LaTeX Warning: Label `fig:mesh1' multiply defined.
+
+
+LaTeX Warning: Label `tab:simParameters' multiply defined.
+
+
+LaTeX Warning: Label `tab:simParameters' multiply defined.
 
 
 LaTeX Warning: Label `fig:mesh1' multiply defined.
@@ -323,7 +323,7 @@ l.34   \PARstart
 
 ? 
 ! You can't use `macro parameter character #' in horizontal mode.
-l.88 ... Kit with dsDNase (Thermo Scientific, Cat#
+l.92 ... Kit with dsDNase (Thermo Scientific, Cat#
                                                   : K1671)
 ? 
 [1{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
@@ -333,18 +333,18 @@ l.88 ... Kit with dsDNase (Thermo Scientific, Cat#
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.113 ...h) and then applied to the $\Delta$\Delta
+l.117 ...h) and then applied to the $\Delta$\Delta
                                                   $ct method
 ? 
 
-Underfull \hbox (badness 4752) in paragraph at lines 119--122
+Underfull \hbox (badness 4752) in paragraph at lines 123--126
 \OT1/ptm/m/n/10 Tk: 8.75ng/$\OML/cmm/m/it/10 ^^V$\OT1/ptm/m/n/10 L, DA: 68.0ng/
 $\OML/cmm/m/it/10 ^^V$\OT1/ptm/m/n/10 L, AV: 487.0ng/$\OML/cmm/m/it/10 ^^V$\OT1
 /ptm/m/n/10 L, Ts:
  []
 
 
-Overfull \hbox (7.36707pt too wide) in paragraph at lines 132--149
+Overfull \hbox (7.36707pt too wide) in paragraph at lines 136--153
  [] 
  []
 
@@ -352,14 +352,14 @@ Overfull \hbox (7.36707pt too wide) in paragraph at lines 132--149
 File: ../images/supergel.png Graphic file (type png)
 
 <use ../images/supergel.png>
-Package pdftex.def Info: ../images/supergel.png used on input line 156.
+Package pdftex.def Info: ../images/supergel.png used on input line 160.
 (pdftex.def)             Requested size: 227.62204pt x 226.38985pt.
  [2 <../images/supergel.png>]
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no “ in font ptmr7t!
 
-Overfull \hbox (3.28696pt too wide) in paragraph at lines 226--246
+Overfull \hbox (3.28696pt too wide) in paragraph at lines 230--250
  [] 
  []
 
@@ -367,34 +367,36 @@ Overfull \hbox (3.28696pt too wide) in paragraph at lines 226--246
 File: ../images/il6-bactin.png Graphic file (type png)
 
 <use ../images/il6-bactin.png>
-Package pdftex.def Info: ../images/il6-bactin.png used on input line 251.
+Package pdftex.def Info: ../images/il6-bactin.png used on input line 255.
 (pdftex.def)             Requested size: 227.62204pt x 150.08206pt.
 
 <../images/il6-rpl13a.png, id=22, 636.4578pt x 474.573pt>
 File: ../images/il6-rpl13a.png Graphic file (type png)
 
 <use ../images/il6-rpl13a.png>
-Package pdftex.def Info: ../images/il6-rpl13a.png used on input line 260.
+Package pdftex.def Info: ../images/il6-rpl13a.png used on input line 264.
 (pdftex.def)             Requested size: 227.62204pt x 169.72372pt.
 
 <../images/infa-bactin.png, id=23, 671.1474pt x 502.5174pt>
 File: ../images/infa-bactin.png Graphic file (type png)
 
 <use ../images/infa-bactin.png>
-Package pdftex.def Info: ../images/infa-bactin.png used on input line 269.
+Package pdftex.def Info: ../images/infa-bactin.png used on input line 273.
 (pdftex.def)             Requested size: 227.62204pt x 170.42426pt.
 
 <../images/infa-rpl13a.png, id=24, 652.839pt x 483.7272pt>
 File: ../images/infa-rpl13a.png Graphic file (type png)
 
 <use ../images/infa-rpl13a.png>
-Package pdftex.def Info: ../images/infa-rpl13a.png used on input line 278.
+Package pdftex.def Info: ../images/infa-rpl13a.png used on input line 282.
 (pdftex.def)             Requested size: 227.62204pt x 168.65752pt.
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no “ in font ptmr7t!
  [3 <../images/il6-bactin.png> <../images/il6-rpl13a.png> <../images/infa-bacti
-n.png> <../images/infa-rpl13a.png>]
+n.png>] [4
+
+ <../images/infa-rpl13a.png>]
 (./report.aux)
 
 LaTeX Warning: There were multiply-defined labels.
@@ -403,7 +405,7 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  3049 strings out of 493089
  46855 string characters out of 6134842
- 124883 words of memory out of 5000000
+ 122883 words of memory out of 5000000
  6496 multiletter control sequences out of 15000+600000
  42394 words of font info for 82 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -418,10 +420,10 @@ e/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/
 ist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2015/texmf-dist/fonts
 /type1/urw/times/utmr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw
 /times/utmri8a.pfb>
-Output written on report.pdf (3 pages, 403242 bytes).
+Output written on report.pdf (4 pages, 405017 bytes).
 PDF statistics:
- 62 PDF objects out of 1000 (max. 8388607)
- 37 compressed objects within 1 object stream
+ 65 PDF objects out of 1000 (max. 8388607)
+ 39 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
